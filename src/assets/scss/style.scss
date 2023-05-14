@@ -1,0 +1,66 @@
+/*!
+Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
+Theme URI:	https://sandbox.elemisthemes.com/
+Version:	3.3.0
+Author:		elemis
+*/
+
+// // Bootstrap Functions
+// @import "../../../node_modules/bootstrap/scss/functions";
+
+// // Theme colors
+// @import "theme-colors";
+
+// // User variables
+// @import 'user-variables';
+
+// // Theme variables
+// @import "variables";
+
+// // Bootstrap configuration
+// @import "../../../node_modules/bootstrap/scss/variables";
+// @import "../../../node_modules/bootstrap/scss/maps";
+// @import "../../../node_modules/bootstrap/scss/mixins";
+// @import "../../../node_modules/bootstrap/scss/utilities";
+
+// // Theme configuration
+// @import "theme/functions";
+// @import "theme/mixins";
+// @import "theme/utilities";
+// @import "theme/root";
+
+// // Bootstrap layout & components
+// @import "bootstrap";
+
+// // Theme layout & components
+// @import "theme/theme";
+
+// // User custom styles
+// @import 'user';
+
+
+
+// @import "bootstrap";
+
+
+
+
+// // Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// // Theme colors
+
+
+// Bootstrap configuration
+@import "../../../node_modules/bootstrap/scss/variables";
+//----------------------------------------------------------//
+$path-to-fonts: 'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap' ;
+$font-family-sans-serif: "Montserrat", sans-serif ;
+
+@import "../../../node_modules/bootstrap/scss/maps";
+@import "../../../node_modules/bootstrap/scss/mixins";
+@import "../../../node_modules/bootstrap/scss/utilities";
+
+
+// Bootstrap layout & components
+@import "bootstrap";

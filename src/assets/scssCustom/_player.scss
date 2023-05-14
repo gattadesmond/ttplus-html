@@ -1,0 +1,91 @@
+video.player {
+  max-width: 100%;
+}
+
+@keyframes ripple-1 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+@keyframes ripple-2 {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.7);
+    opacity: 0;
+  }
+}
+
+
+.plyr {
+  border-radius: 1rem;
+  position: relative;
+  z-index: 2;
+}
+.plyr__control--overlaid {
+  border: 0;
+  padding: 1.25rem;
+  background: #fff;
+  
+  box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.04);
+  color: var(--bs-gray-800);
+  opacity: 1;
+  &:hover{
+    color: var(--fn-color-2);
+  }
+}
+.plyr__control--overlaid:focus,
+.plyr__control--overlaid:hover {
+  background: #fff !important;
+  color: var(--fn-color-2) !important;
+  box-shadow: 0rem 0rem 1.25rem rgba(30, 34, 40, 0.04);
+  transition: all 0.2s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .plyr__control--overlaid:focus,
+  .plyr__control--overlaid:hover {
+    transition: none;
+  }
+}
+.plyr--video .plyr__controls {
+  background: linear-gradient(transparent, rgba(30, 34, 40, 0.2));
+}
+.plyr--video .plyr__controls .plyr__control.plyr__tab-focus,
+.plyr--video .plyr__controls .plyr__control:hover,
+.plyr--video .plyr__controls .plyr__control[aria-expanded="true"] {
+  background: var(--fn-color-2);
+}
+.plyr--full-ui input[type="range"] {
+  color: var(--fn-color-2);
+}
+.plyr__control--overlaid::before,
+.plyr__control--overlaid::after,
+.btn-circle.ripple::before,
+.btn-circle.ripple::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background: #fff;
+  opacity: 0.8;
+  animation: ripple-1 2s infinite ease-in-out;
+  z-index: -1;
+}
+.plyr__control--overlaid::after,
+.btn-circle.ripple::after {
+  opacity: 0.6;
+  animation: ripple-2 2s infinite ease-in-out;
+  animation-delay: 0.5s;
+}
+

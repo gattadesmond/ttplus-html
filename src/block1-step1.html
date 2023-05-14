@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    @@include('_head.html')
+    <link rel="stylesheet" href="@@webRoot/assets/css/fitness.css" />
+  </head>
+  <body class="">
+    <div class="fitness-root">
+      <div class="fitness-wrap">
+        @@include('_header.html')
+
+        @@include('_fitness-tab.html')
+
+        <div class="fitness-body">
+          <div class="tab-content" id="fitness-tab-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="fitness-home"
+              role="tabpanel"
+              aria-labelledby="fitness-home-tab"
+              tabindex="0"
+            >
+              @@include('_content1-step1.html')
+            </div>
+            <div
+              class="tab-pane fade"
+              id="fitness-workout"
+              role="tabpanel"
+              aria-labelledby="fitness-workout-tab"
+              tabindex="0"
+            >
+              .dw..
+            </div>
+            <div
+              class="tab-pane fade"
+              id="fitness-courses"
+              role="tabpanel"
+              aria-labelledby="fitness-courses-tab"
+              tabindex="0"
+            >
+              .dw..
+            </div>
+            <div
+              class="tab-pane fade"
+              id="fitness-challenges"
+              role="tabpanel"
+              aria-labelledby="fitness-challenges-tab"
+              tabindex="0"
+            >
+              .dw..
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    @@include('_page-progress.html') @@include('_scripts.html')
+  </body>
+</html>

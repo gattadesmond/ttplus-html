@@ -1,0 +1,137 @@
+<!-- <script src="@@webRoot/assets/js/plugins.js"></script>
+<script src="@@webRoot/assets/js/theme.js"></script> -->
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+  crossorigin="anonymous"
+></script>
+
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"
+></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
+"></script>
+
+<script src="https://unpkg.com/counterup2@2.0.2/dist/index.js"></script>
+<script src="
+https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.min.js
+"></script>
+
+<script>
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    slidesPerView: 5,
+    spaceBetween: 10,
+    centeredSlides: true,
+    // centeredSlidesBounds: true,
+    slideToClickedSlide: true,
+    // If we need pagination
+
+    on: {
+      afterInit: function (swi) {
+        swi.slideTo(2);
+      },
+    },
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-dayselect-next",
+      prevEl: ".swiper-dayselect-prev",
+    },
+  });
+
+  var theme = {
+    init: function () {
+      theme.progressBar();
+      theme.counterUp();
+      theme.plyr();
+    },
+    progressBar: () => {
+      const pcircle = document.querySelectorAll(".progressbar.circle");
+      const pline = document.querySelectorAll(".progressbar.line");
+      pline.forEach((e) => {
+        var line = new ProgressBar.Line(e, {
+          strokeWidth: 4,
+          trailWidth: 4,
+          duration: 2000,
+          easing: "easeInOut",
+          // text: {
+          //   style: {
+          //     color: 'inherit',
+          //     position: 'absolute',
+          //     right: '0',
+          //     top: '-30px',
+          //     padding: 0,
+          //     margin: 0,
+          //     transform: null
+          //   },
+          //   autoStyleContainer: false
+          // },
+          // step: (state, line) => {
+          //   line.setText(Math.round(line.value() * 100) + ' %');
+          // }
+        });
+        var value = e.getAttribute("data-value") / 100;
+        new Waypoint({
+          element: e,
+          handler: function () {
+            line.animate(value);
+          },
+          offset: "bottom-in-view",
+        });
+      });
+      pcircle.forEach((e) => {
+        var circle = new ProgressBar.Circle(e, {
+          strokeWidth: 8,
+          color: "#FF2F8F",
+
+          trailColor: "#BABABA",
+          trailWidth: 8,
+          duration: 2000,
+          easing: "easeInOut",
+          step: (state, circle) => {
+            circle.setText(Math.round(circle.value() * total));
+          },
+        });
+        var value = e.getAttribute("data-value") / e.getAttribute("data-total");
+        var total = e.getAttribute("data-total");
+
+        new Waypoint({
+          element: e,
+          handler: function () {
+            circle.animate(value);
+          },
+          offset: "bottom-in-view",
+        });
+      });
+    },
+    counterUp: () => {
+      const counterUp = window.counterUp.default;
+      const counters = document.querySelectorAll(".counter");
+      counters.forEach((el) => {
+        new Waypoint({
+          element: el,
+          handler: function () {
+            counterUp(el, {
+              duration: 1000,
+              delay: 50,
+            });
+            this.destroy();
+          },
+          offset: "bottom-in-view",
+        });
+      });
+    },
+    plyr: () => {
+      var players = Plyr.setup(".player", {
+        loadSprite: true,
+      });
+    },
+  };
+
+  theme.init();
+</script>
