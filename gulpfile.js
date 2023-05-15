@@ -231,14 +231,14 @@ gulp.task('colorcss:dist', function () {
 // Compile vendor styles
 gulp.task('vendorcss:dev', function () {
   return gulp.src(path.src.vendorcss)
-    .pipe(concat('plugins.css'))
+    // .pipe(concat('plugins.css'))
     .pipe(beautify.css({ indent_size: 2, preserve_newlines: false, newline_between_rules: false }))
     .pipe(gulp.dest(path.dev.css))
     .pipe(touch())
 });
 gulp.task('vendorcss:dist', function () {
   return gulp.src(path.src.vendorcss)
-    .pipe(concat('plugins.css'))
+    // .pipe(concat('plugins.css'))
     .pipe(cleanCSS())
     .pipe(gulp.dest(path.dist.css))
     .pipe(touch())
