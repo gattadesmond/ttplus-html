@@ -21,6 +21,8 @@ https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
 
 <script src="@@webRoot/assets/img/jquery-3.7.0.min.js"></script>
 
+<script src="@@webRoot/assets/img/jquery-ui.js"></script>
+
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
   integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
@@ -41,7 +43,22 @@ https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
     // dots: true,
     autoplay: true,
     autoplaySpeed: 6000,
+    swipeToSlide: true,
   });
+
+  $(".drag-products").slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    swipeToSlide: true,
+    // infinite: false,
+    touchThreshold:10,
+    variableWidth: true,
+    dots: false,
+    prevArrow: false,
+    nextArrow: false,
+    // dots: true,
+  });
+
   // $(".ourprod-view .item").hover(
   //   function () {
   //     $(this).addClass("show");
@@ -54,7 +71,10 @@ https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
   $(".ourprod-content .visual-item").hover(
     function (index) {
       $(".ourprod-view .item").eq($(this).index()).addClass("show");
-      $(".ourprod-view .item").eq($(this).index()).siblings().removeClass("show");
+      $(".ourprod-view .item")
+        .eq($(this).index())
+        .siblings()
+        .removeClass("show");
       $(this).addClass("on");
       $(this).siblings().addClass("off");
     },
