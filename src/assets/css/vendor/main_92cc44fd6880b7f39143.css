@@ -19,7 +19,7 @@
 }
 
 /*--------------------- S : index.vue 메인 모바일 ---------------------*/
-@media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
+@media only screen and ('Inter', sans-serif;orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
   html {
     font-size: inherit;
   }
@@ -58,7 +58,7 @@
     height: 1.1875rem;
   }
   .main .container .main-box .tit-main {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-size: 38px;
     font-weight: 900;
     letter-spacing: 0.25rem;
@@ -506,7 +506,7 @@
     height: 1.1875rem;
   }
   .main .container .main-box .tit-main {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-size: 38px;
     font-weight: 900;
     letter-spacing: 0.25rem;
@@ -1587,7 +1587,7 @@
 }
 .ourprod-wrap .ourprod-content .item > .pro-detail-tit {
   position: relative;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   line-height: 1.2;
   font-weight: 700;

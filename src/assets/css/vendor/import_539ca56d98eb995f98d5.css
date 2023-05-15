@@ -1,66 +1,7 @@
 @charset "UTF-8";
 @import url(./plugins/jquery-ui.css);
 @import url(./plugins/slick.css);
-@font-face {
-  font-family: "Lato";
-  font-weight: 300;
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Thin.eot");
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Thin.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/Lato-Thin.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/Lato-Thin.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/Lato-Thin.otf") format("opentype");
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 400;
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Light.eot");
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/Lato-Light.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/Lato-Light.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/Lato-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 500;
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Regular.eot");
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/Lato-Regular.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/Lato-Regular.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/Lato-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 700;
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Bold.eot");
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/Lato-Bold.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/Lato-Bold.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/Lato-Bold.otf") format("opentype");
-}
-@font-face {
-  font-family: "Lato";
-  font-weight: 900;
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Black.eot");
-  src: url("https://img.lxhausys.com/public/fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/Lato-Black.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/Lato-Black.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/Lato-Black.otf") format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 300;
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Light.eot");
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Light.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Light.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Light.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Light.otf") format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 400;
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Regular.eot");
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Regular.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Regular.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Regular.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Regular.otf") format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 500;
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Medium.eot");
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Medium.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Medium.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Medium.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Medium.otf") format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 700;
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Bold.eot");
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Bold.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Bold.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Bold.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Bold.otf") format("opentype");
-}
-@font-face {
-  font-family: "Noto Sans";
-  font-weight: 900;
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Black.eot");
-  src: url("https://img.lxhausys.com/public/fonts/NotoSansKR-Black.eot?#iefix") format("embedded-opentype"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Black.woff2") format("woff2"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Black.woff") format("woff"), url("https://img.lxhausys.com/public/fonts/NotoSansKR-Black.otf") format("opentype");
-}
+
 /* =================================== font =================================== */
 a,
 a:active,
@@ -920,7 +861,7 @@ th {
 /* title */
 h3.tit-05,
 h4.tit-sub {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
 }
 
 /*2022-01-07 이강형 추가*/
@@ -1429,7 +1370,7 @@ h4.tit-sub-02 {
   color: #fff;
   transition: none;
   transform: none;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 40px;
   font-weight: 900;
   letter-spacing: normal;
@@ -1443,7 +1384,7 @@ h4.tit-sub-02 {
 .visual-detail .visual-image .txt-box .txt-02 {
   color: #fff;
   font-size: 26px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 500;
 }
 @media (max-width: 768px) {
@@ -1551,7 +1492,7 @@ h4.tit-sub-02 {
 .keyvisual-hei-750 .kv-desc .kv_subtit {
   display: block;
   margin-bottom: 42px;
-  font-family: Lato;
+  font-family: 'Inter', sans-serif;;
   font-size: 26px;
   font-weight: bold;
   line-height: 1.42;
@@ -6215,7 +6156,7 @@ h4.tit-sub-02 {
 .wrap-kv-colours .kv-desc .kv_subtit {
   display: block;
   margin-bottom: 55px;
-  font-family: Lato;
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 900;
   line-height: 0.97;
@@ -6280,7 +6221,7 @@ h4.tit-sub-02 {
      object-fit: cover;
 }
 .google-ads-inspr .slide-wrapper .slick-container .slider .thumb .ads-inspr-tit {
-  font-family: Lato;
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 900;
   line-height: 1.3;
@@ -6718,7 +6659,7 @@ h4.tit-sub-02 {
   margin-right: 5px;
   text-transform: uppercase;
   font-size: 18px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
 }
 @media (max-width: 768px) {
@@ -6883,13 +6824,13 @@ h4.tit-sub-02 {
   padding-right: 7px;
   color: #b40f2c;
   font-size: 38px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
 }
 .container.micro-pf .tab-ui .micro-gal-head .flex-left .color-num .blk {
   color: #2c2c2d;
   font-size: 38px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
 }
 .container.micro-pf .tab-ui .micro-gal-head .micro-sort-box {
@@ -7043,7 +6984,7 @@ h4.tit-sub-02 {
   }
 }
 .micro-page .micro-visual .micro-contents .slider-micro-nav-wrap .slider .nav-slide-con .micro-tab-box .micro-tab-desc {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -7661,7 +7602,7 @@ h4.tit-sub-02 {
 
 .prod-dt-view .prod-info .wide-proDeteail-label span.exclusive {
   padding: 3px 10px 2px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -8205,7 +8146,7 @@ h4.tit-sub-02 {
   font-size: 16px;
   color: #746761;
   font-weight: bold;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   line-height: 23px;
   border: 2px solid #746761;
   box-sizing: border-box;
@@ -9657,7 +9598,7 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
   line-height: 1.057;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 /* index.vue 메인 슬라이더 */
@@ -12057,7 +11998,7 @@ header.main .hd-btns01 .p-ui.mp-ui .ico-02 {
 /*** style-1.css 와의 충돌요소 발생시 상호 작업자 협의 ***/
 /* Global  */
 h3.tit {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 56px;
   font-weight: 900;
   text-transform: uppercase;
@@ -12076,7 +12017,7 @@ h3.tit {
 }
 
 .tit {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 56px;
   font-weight: 900;
   text-transform: uppercase;
@@ -12141,10 +12082,10 @@ h3.tit {
 }
 
 .tit-main {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 900;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.1rem;
 }
 
 .btn-golmore {
@@ -12360,7 +12301,7 @@ h3.tit {
   }
 }
 .prod-dt-cate.main .slider-prod .txt-box p {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   text-transform: none;
   letter-spacing: initial;
 }
@@ -12427,7 +12368,7 @@ h3.tit {
 .ourprod-wrap .ourprod-content .item > .title,
 .ourprod-wrap .ourprod-content .item .area .area_title {
   position: relative;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   text-transform: unset;
   top: unset;
@@ -12655,7 +12596,7 @@ h3.tit {
 .ftrd-prod-box .txt-box .center-box .info-ti {
   font-weight: 900;
   letter-spacing: 1.9px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   margin-top: 194px;
   white-space: normal;
   text-transform: uppercase;
@@ -12734,7 +12675,7 @@ h3.tit {
   text-align: left;
 }
 .seg-box .seg-menu-tit span {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 900;
@@ -12909,7 +12850,7 @@ h3.tit {
   margin-bottom: 16px;
 }
 .insplist-wrap .txt-info .tinfo-tit {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   font-weight: 900;
 }
@@ -12943,7 +12884,7 @@ h3.tit {
   -webkit-box-orient: vertical;
 }
 .insplist-wrap .dim-box .tinfo-tit {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   margin-top: 46px;
   font-size: 38px;
   font-weight: 800;
@@ -13085,7 +13026,7 @@ h3.tit {
 }
 
 .sch-btm.has-tab .tab-ui-dark ul li.btn-tab button > span {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -13919,7 +13860,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
 
 /*********** S : typo.scss ***********/
 *.tt-1 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   color: #2c2c2d;
   text-transform: uppercase;
   font-size: 56px;
@@ -13941,7 +13882,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-2 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 700;
   letter-spacing: 0;
@@ -13961,7 +13902,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-3 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
@@ -13981,7 +13922,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-4 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 900;
   text-transform: uppercase;
@@ -14001,7 +13942,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-34 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 34px;
   font-weight: 700;
   word-break: keep-all;
@@ -14017,7 +13958,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-30 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 30px;
   font-weight: 700;
   word-break: keep-all;
@@ -14033,7 +13974,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-26 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 26px;
   font-weight: 700;
   word-break: keep-all;
@@ -14049,7 +13990,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   }
 }
 *.tt-24 {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 24px;
   font-weight: 700;
   word-break: keep-all;
@@ -14080,7 +14021,7 @@ iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
 }
 *.tt-sub-gray {
   margin-bottom: 64px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 36px;
   font-weight: 700;
   line-height: 45px;
@@ -16952,7 +16893,7 @@ header .menu li span {
   color: rgba(255, 255, 255, 0.7);
 }
 header .menu li a span {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 17px;
   font-weight: bold;
   padding-bottom: 0;
@@ -18092,7 +18033,7 @@ header.on .menu li span {
   color: rgba(255, 255, 255, 0.7);
 }
 header.on .menu li a span {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 17px;
   font-weight: bold;
   padding-bottom: 0;
@@ -18343,7 +18284,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
 }
 .gnb-header .dep2 .dep3 > ul > li > a > span {
   font-size: 16px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 500;
   letter-spacing: 0.45px;
   color: #2c2c2d;
@@ -18632,7 +18573,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
   padding: 0;
 }
 .gnb-section .dep2.fl-l > ul > li > a > span {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   letter-spacing: 0.45px;
   font-weight: 500;
@@ -18689,7 +18630,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
 }
 .gnb-section .dep2 .dep3.dep3-type02 > ul > li a > span,
 .gnb-section .dep2 .dep3.dep3-type02 > ul > li span.no-link {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   letter-spacing: 0.4px;
 }
@@ -18842,7 +18783,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
 }
 .gnb-section .mlist-prod .dep3.dep3-type02 a .m-go {
   font-weight: 700;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   color: #2c2c2d;
   letter-spacing: normal;
@@ -18927,7 +18868,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
 .gnb-section .dep4 > a .m-go {
   letter-spacing: 0.4px;
   font-weight: 700;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   color: #2c2c2d;
 }
@@ -18989,7 +18930,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
   }
 }
 .gnb-section .dep4.type1 > ul > li > a > span {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   color: #2c2c2d;
   font-weight: 500;
@@ -19007,7 +18948,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
   margin-top: 24px;
 }
 .gnb-section .dep5 > ul > li > a > span {
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.4px;
@@ -19062,7 +19003,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
 .gnb-section .title_seg_about {
   letter-spacing: 0.4px;
   font-weight: 500;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   color: #2c2c2d;
   margin-bottom: 34px;
 }
@@ -19151,7 +19092,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     transform: rotate(0deg) !important;
   }
   .m-gnb-container > ul > li .m-gnb-title h3 {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -19230,7 +19171,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     display: flex;
   }
   .m-gnb-container .m-dep02 em, .m-gnb-container .m-dep02 span {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: 500;
     font-size: 0.8541666667rem;
   }
@@ -19391,7 +19332,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     transform: rotate(0deg) !important;
   }
   .m-gnb-container > ul > li .m-gnb-title h3 {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -19399,7 +19340,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     letter-spacing: 0.075rem;
   }
   .m-gnb-container > ul > li .m-gnb-title .heading-3 {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -19484,7 +19425,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     display: flex;
   }
   .m-gnb-container .m-dep02 em, .m-gnb-container .m-dep02 span {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: 500;
     font-size: 0.8541666667rem;
   }
@@ -19734,7 +19675,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
   }
   .m-gnb-container > ul > li .m-gnb-title .heading-3 {
     margin-left: 0.5208333333rem;
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: bold;
     font-size: 1rem;
     text-transform: uppercase;
@@ -19819,7 +19760,7 @@ header.hasSelectLang.on .hd-btns01 .ico-06:hover {
     display: flex;
   }
   .m-gnb-container .m-dep02 em, .m-gnb-container .m-dep02 span {
-    font-family: "lato";
+    font-family: 'Inter', sans-serif;;
     font-weight: 500;
     font-size: 0.8541666667rem;
   }
@@ -20050,7 +19991,7 @@ footer .pc-view .comp-box a {
   text-align: left;
 }
 footer .pc-view .comp-box [class^=com-] > .heading-2.footer-tit {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -20083,10 +20024,10 @@ footer .pc-view .comp-box [class^=com-] > .heading-2 a {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
 }
 footer .pc-view .comp-box [class^=com-] > .heading-2 .footer-tit {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   font-weight: 700;
   color: #fff;
@@ -20144,7 +20085,7 @@ footer .pc-view .conct-us > .heading-2 {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
@@ -20242,7 +20183,7 @@ footer .pc-view .letter-box label a {
   line-height: 1.2;
   color: #fff;
   font-size: 16px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1.2px;
@@ -21118,7 +21059,7 @@ a.required::after {
 }
 @media (max-width: 768px) {
   footer .foot-tab {
-    font-family: "Lato";
+    font-family: 'Inter', sans-serif;;
     font-size: 0.875rem;
     text-transform: uppercase;
   }
@@ -21180,7 +21121,7 @@ a.required::after {
   }
 }
 .tit-sitemapGnb {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 34px;
   font-weight: bold;
   font-stretch: normal;
@@ -21229,7 +21170,7 @@ a.required::after {
 .sitemap-gnb-warp .sitemap-gnb .tit-sub {
   padding-left: 20px;
   margin-bottom: 20px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 34px;
   font-weight: bold;
   text-align: left;
@@ -21247,7 +21188,7 @@ a.required::after {
 
 .sitemap-gnb-2dp {
   margin: 0 13px 25px 0;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 900;
   text-align: left;
@@ -21281,7 +21222,7 @@ a.required::after {
   padding: 0;
   border-radius: 30px;
   color: #2c2c2d;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 900;
 }
@@ -21307,7 +21248,7 @@ a.required::after {
 }
 
 .sitemap-gnb-warp .sitemap-gnb li.list {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   letter-spacing: 0.45px;
   text-align: left;
@@ -21322,7 +21263,7 @@ a.required::after {
 .sitemap-gnb-warp .sitemap-gnb .tit-gnb {
   padding-left: 20px;
   margin-bottom: 20px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 900;
   text-align: left;
@@ -21337,7 +21278,7 @@ a.required::after {
 }
 .sitemap-gnb-warp .sitemap-gnb .tit-sub span.tit {
   margin-bottom: 20px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 16px;
   font-weight: 900;
   text-align: left;
@@ -21355,7 +21296,7 @@ a.required::after {
   padding-left: 20px;
   padding-bottom: 20px;
   display: block;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   letter-spacing: 0.45px;
   text-align: left;
@@ -21380,7 +21321,7 @@ a.required::after {
 }
 .sitemap-gnb-warp .sitemap-gnb .tit-sub li {
   padding-bottom: 24px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.45px;
@@ -22223,7 +22164,7 @@ a.link-arrow-white {
   align-items: center;
   justify-content: center;
   height: 100%;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 600;
   letter-spacing: 0.4px;
   font-size: 16px;
@@ -22481,7 +22422,7 @@ a.link-arrow-white {
 }
 .tab-ui .btns.type-main button {
   padding: 10px 20px 9px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -22495,7 +22436,7 @@ a.link-arrow-white {
 .tab-ui .btns.type02 button {
   padding: 10px 20px 9px;
   font-size: 20px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #2c2c2d;
@@ -22534,7 +22475,7 @@ a.link-arrow-white {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   letter-spacing: 0.5px;
 }
 .tab-ui .btns.type03 li:hover button, .tab-ui .btns.type03 li:active button {
@@ -22562,7 +22503,7 @@ a.link-arrow-white {
 }
 .tab-ui .btns.type04 li button span {
   color: #2c2c2d;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 700;
   font-stretch: normal;
@@ -22591,7 +22532,7 @@ a.link-arrow-white {
 .tab-ui .btns.type-chk label {
   padding: 10px 20px 9px;
   font-size: 20px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #2c2c2d;
@@ -22796,7 +22737,7 @@ a.link-arrow-white {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   letter-spacing: 0.5px;
   color: #2c2c2d;
   white-space: nowrap;
@@ -22931,7 +22872,7 @@ a.link-arrow-white {
   height: 2.5882352941rem;
   padding: 0 20px;
   border-radius: 25px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 20px;
   font-weight: 700;
   letter-spacing: 0.5px;
@@ -23232,7 +23173,7 @@ a.link-arrow-white {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   letter-spacing: 0.5px;
   color: #2c2c2d;
   white-space: nowrap;
@@ -23541,7 +23482,7 @@ a.link-arrow-white {
   font-size: 20px;
   font-weight: 700;
   line-height: 25px;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   letter-spacing: 0.5px;
   color: #2c2c2d;
   white-space: nowrap;
@@ -23932,7 +23873,7 @@ a.link-arrow-white {
 .layer-view.popup-v2 .popup-body .err-title {
   display: block;
   margin-bottom: 30px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.32;
@@ -24379,7 +24320,7 @@ a.link-arrow-white {
   display: block;
   margin-bottom: 30px;
   padding-bottom: 0;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.32;
@@ -24819,7 +24760,7 @@ a.link-arrow-white {
   display: block;
   margin-bottom: 30px;
   padding-bottom: 0;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.32;
@@ -24932,7 +24873,7 @@ a.link-arrow-white {
   padding-bottom: 30px;
   font-size: 38px;
   font-weight: 700;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   line-height: 1;
   color: #000;
   border-bottom: 1px solid #606060;
@@ -24960,7 +24901,7 @@ a.link-arrow-white {
 .layer-view.popup-v2-w740 .popup-body .err-title {
   display: block;
   margin-bottom: 30px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 600;
   line-height: 1.32;
@@ -25535,7 +25476,7 @@ a.link-arrow-white {
 .articles-list .txt-box h4 {
   display: -webkit-box;
   margin: inherit;
-  font-family: "lato";
+  font-family: 'Inter', sans-serif;;
   text-transform: uppercase;
   letter-spacing: 1px;
   -webkit-box-orient: vertical;
@@ -26631,7 +26572,7 @@ a.link-arrow-white {
   position: absolute;
   z-index: 30;
   left: 0;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-weight: 700;
   font-size: 15px;
   background: #a72b2a;
@@ -27672,7 +27613,7 @@ a.link-arrow-white {
 .gallery .txt-box strong {
   display: block;
   margin-top: 100px;
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: 600;
   line-height: 50px;
@@ -27760,7 +27701,7 @@ a.link-arrow-white {
   }
 }
 .wrapper-cms-cnm .text-box:not(.ico-box) .tit-04 {
-  font-family: "Lato";
+  font-family: 'Inter', sans-serif;;
   font-size: 38px;
   font-weight: bold;
 }
