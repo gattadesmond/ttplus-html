@@ -8448,11 +8448,17 @@ h4.tit-sub-02 {
   opacity: 1;
   background: rgba(0, 0, 0, 0.8);
   overflow-x: auto;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 .hder-section.on {
   display: block;
+ 
 }
+
+.hder-section.on .sch-area{
+  display:block
+}
+
 .hder-section.cart-ui {
   background: rgb(255, 255, 255);
 }

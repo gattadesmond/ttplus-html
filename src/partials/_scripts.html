@@ -89,6 +89,12 @@
     }
   });
 
+  $("#openSearch").on("click", function(){
+    $(".hder-section").addClass("on")
+  })
+  $(".btn-hd-close").on("click", function(){
+    $(".hder-section").removeClass("on")
+  })
   var theme = {
     init: function () {
       // theme.progressBar();
