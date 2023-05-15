@@ -29,3 +29,21 @@
 .ourprod-view .item{
   
 }
+
+.go_home_for_pc {
+  display: inline-block;
+ 
+}
+
+.go_home_for_mobile {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .go_home_for_pc {
+    display: none !important;
+  }
+  .go_home_for_mobile {
+    display: inline-block !important;
+  }
+}

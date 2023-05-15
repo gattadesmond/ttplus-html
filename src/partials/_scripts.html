@@ -81,6 +81,14 @@
   }
   $(document).on("click", ".btn-tab", tabMenu);
 
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 200) {
+      $(".scr-hder").addClass("on");
+    } else {
+      $(".scr-hder").removeClass("on");
+    }
+  });
+
   var theme = {
     init: function () {
       // theme.progressBar();

@@ -16672,10 +16672,7 @@ header [class^=hd-btns] > ul > li {
     display: none;
   }
 }
-header.on .logo a {
-  background: url(https://img.lxhausys.com/public/images/logo_05.png) center no-repeat;
-  background-size: 100% auto;
-}
+
 header .hd-btns01 [class^=ico] {
   background-repeat: no-repeat;
   background-size: 100%;
@@ -16983,22 +16980,7 @@ header .logo a {
   }
 }
 
-.go_home_for_pc {
-  display: inline-block;
-}
 
-.go_home_for_mobile {
-  display: none;
-}
-
-@media (max-width: 767px) {
-  .go_home_for_pc {
-    display: none !important;
-  }
-  .go_home_for_mobile {
-    display: inline-block !important;
-  }
-}
 .gnb-section .img-box a:before {
   content: "";
   position: absolute;
@@ -17992,12 +17974,7 @@ header [class^=hd-btns] > ul > li {
   display: flex;
   align-items: center;
 }
-header.on .logo a {
-  background-image: url(https://img.lxhausys.com/public/images/logo_LX_Hausys_color_final.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
+
 header.on .menu li ~ li {
   margin-left: 40px;
 }
