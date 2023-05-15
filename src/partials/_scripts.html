@@ -1,7 +1,11 @@
 <!-- <script src="@@webRoot/assets/js/plugins.js"></script>
 <script src="@@webRoot/assets/js/theme.js"></script> -->
 
-<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+<script
+  src="https://code.jquery.com/jquery-3.7.0.min.js"
+  integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+  crossorigin="anonymous"
+></script>
 
 <script
   src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
@@ -35,6 +39,47 @@ https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
     autoplay: true,
     autoplaySpeed: 6000,
   });
+  $(".ourprod-view .item").hover(
+    function () {
+      $(this).addClass("show");
+    },
+    function () {
+      $(this).removeClass("show");
+    }
+  );
+
+  // $(".ourprod-view .item")
+  //   .mouseenter(function () {
+  //     $(this).stop().animate(
+  //       {
+  //         width: "100%",
+  //         left: "0",
+  //       },
+  //       500
+  //     ); // Thời gian hoàn thành animation là 500ms
+  //   })
+  //   .mouseleave(function () {
+  //     $(this).stop().animate(
+  //       {
+  //         width: "auto", // Trở về chiều rộng ban đầu
+  //         left: "0", // Hoạt động kết thúc tại vị trí ban đầu
+  //       },
+  //       500
+  //     );
+  //   });
+
+  $(".ourprod-content .visual-item").hover(
+    function () {
+      $(this).addClass("on");
+      $(this).siblings().addClass("off");
+    },
+    function () {
+      $(this).removeClass("on");
+      $(this).siblings().removeClass("off");
+    }
+  );
+
+  
   const swiper = new Swiper(".swiper", {
     // Optional parameters
     slidesPerView: 5,
@@ -137,7 +182,6 @@ https://cdn.jsdelivr.net/npm/progressbar.js@1.1.0/dist/progressbar.min.js
         });
       });
     },
-  
   };
 
   theme.init();
