@@ -4,3 +4,13 @@
   font-weight: bold;
 }
 
+.ourprod-view .item.show{
+  width: 100% !important;
+  left: 0 !important;
+  z-index: 10;
+  transition: all 0.6s ease-in;
+
+}
+
+.ourprod-view .item{
+}
