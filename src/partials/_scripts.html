@@ -1,7 +1,11 @@
 <script src="@@webRoot/assets/img/jquery-3.7.0.min.js"></script>
 
 <script src="@@webRoot/assets/img/jquery-ui.js"></script>
-
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+  crossorigin="anonymous"
+></script>
 <script
   src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
   integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
@@ -89,91 +93,81 @@
     }
   });
 
-  $("#openSearch").on("click", function(){
-    $(".hder-section").addClass("on")
-  })
-  $(".btn-hd-close").on("click", function(){
-    $(".hder-section").removeClass("on")
-  })
+  $("#openSearch").on("click", function () {
+    $(".hder-section").addClass("on");
+  });
+  $(".btn-hd-close").on("click", function () {
+    $(".hder-section").removeClass("on");
+  });
   var theme = {
     init: function () {
-      // theme.progressBar();
-      // theme.counterUp();
+      theme.subMenu();
+      theme.bsTooltips();
+      theme.bsPopovers();
     },
-    progressBar: () => {
-      const pcircle = document.querySelectorAll(".progressbar.circle");
-      const pline = document.querySelectorAll(".progressbar.line");
-      pline.forEach((e) => {
-        var line = new ProgressBar.Line(e, {
-          strokeWidth: 4,
-          trailWidth: 4,
-          duration: 2000,
-          easing: "easeInOut",
-          // text: {
-          //   style: {
-          //     color: 'inherit',
-          //     position: 'absolute',
-          //     right: '0',
-          //     top: '-30px',
-          //     padding: 0,
-          //     margin: 0,
-          //     transform: null
-          //   },
-          //   autoStyleContainer: false
-          // },
-          // step: (state, line) => {
-          //   line.setText(Math.round(line.value() * 100) + ' %');
-          // }
-        });
-        var value = e.getAttribute("data-value") / 100;
-        new Waypoint({
-          element: e,
-          handler: function () {
-            line.animate(value);
-          },
-          offset: "bottom-in-view",
-        });
-      });
-      pcircle.forEach((e) => {
-        var circle = new ProgressBar.Circle(e, {
-          strokeWidth: 8,
-          color: "#FF2F8F",
-
-          trailColor: "#BABABA",
-          trailWidth: 8,
-          duration: 2000,
-          easing: "easeInOut",
-          step: (state, circle) => {
-            circle.setText(Math.round(circle.value() * total));
-          },
-        });
-        var value = e.getAttribute("data-value") / e.getAttribute("data-total");
-        var total = e.getAttribute("data-total");
-
-        new Waypoint({
-          element: e,
-          handler: function () {
-            circle.animate(value);
-          },
-          offset: "bottom-in-view",
-        });
-      });
-    },
-    counterUp: () => {
-      const counterUp = window.counterUp.default;
-      const counters = document.querySelectorAll(".counter");
-      counters.forEach((el) => {
-        new Waypoint({
-          element: el,
-          handler: function () {
-            counterUp(el, {
-              duration: 1000,
-              delay: 50,
+    subMenu: () => {
+      (function ($bs) {
+        const CLASS_NAME = "has-child-dropdown-show";
+        $bs.Dropdown.prototype.toggle = (function (_original) {
+          return function () {
+            document.querySelectorAll("." + CLASS_NAME).forEach(function (e) {
+              e.classList.remove(CLASS_NAME);
             });
-            this.destroy();
-          },
-          offset: "bottom-in-view",
+            let dd = this._element
+              .closest(".dropdown")
+              .parentNode.closest(".dropdown");
+            for (
+              ;
+              dd && dd !== document;
+              dd = dd.parentNode.closest(".dropdown")
+            ) {
+              dd.classList.add(CLASS_NAME);
+            }
+            return _original.call(this);
+          };
+        })($bs.Dropdown.prototype.toggle);
+        document.querySelectorAll(".dropdown").forEach(function (dd) {
+          dd.addEventListener("hide.bs.dropdown", function (e) {
+            if (this.classList.contains(CLASS_NAME)) {
+              this.classList.remove(CLASS_NAME);
+              e.preventDefault();
+            }
+            e.stopPropagation();
+          });
         });
+      })(bootstrap);
+    },
+    bsTooltips: () => {
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl, {
+          trigger: "hover",
+        });
+      });
+      var tooltipTriggerWhite = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="white-tooltip"]')
+      );
+      var tooltipWhite = tooltipTriggerWhite.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl, {
+          customClass: "white-tooltip",
+          trigger: "hover",
+          placement: "left",
+        });
+      });
+    },
+    /**
+     * Bootstrap Popovers
+     * Enables Bootstrap popovers
+     * Requires Poppers library
+     */
+    bsPopovers: () => {
+      var popoverTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl);
       });
     },
   };
