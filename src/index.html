@@ -5,14 +5,19 @@
     <link rel="stylesheet" href="@@webRoot/assets/css/fitness.css" />
   </head>
   <body class="">
+    @@include('_header.html')
 
-        @@include('_header.html')
+    <div class="main content prod-dt-cate">
+      <div class="container prod-dt-view">
+        
+        @@include('home/_slider.html')
 
 
-        @@include('_footer.html')
+        @@include('home/_product.html')
+      </div>
+    </div>
 
-
- 
-    @@include('_page-progress.html') @@include('_scripts.html')
+    @@include('_footer.html') @@include('_page-progress.html')
+    @@include('_scripts.html')
   </body>
 </html>
