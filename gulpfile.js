@@ -8,8 +8,10 @@ var path = {
     css: 'dev/assets/css/',
     style: 'dev/assets/css/',
     styleCustom: 'dev/assets/css/',
+    fontcss: 'dev/assets/css/fonts/',
     colorcss: 'dev/assets/css/colors/',
     img: 'dev/assets/img/',
+    fonts: 'dev/assets/fonts/',
     media: 'dev/assets/media/',
     php: 'dev/assets/php/'
   },
@@ -18,9 +20,11 @@ var path = {
     js: 'dist/assets/js/',
     css: 'dist/assets/css/',
     style: 'dist/assets/css/',
+    fontcss: 'dist/assets/css/fonts/',
     styleCustom: 'dist/assets/css/',
     colorcss: 'dist/assets/css/colors/',
     img: 'dist/assets/img/',
+    fonts: 'dist/assets/fonts/',
     media: 'dist/assets/media/',
     php: 'dist/assets/php/'
   },
@@ -31,10 +35,12 @@ var path = {
     vendorjs: 'src/assets/js/vendor/*.*',
     themejs: 'src/assets/js/theme.js',
     style: 'src/assets/scss/style.scss',
+    fontcss: 'src/assets/scss/fonts/*.*',
     styleCustom: 'src/assets/scssCustom/fitness.scss',
     colorcss: ['src/assets/scss/colors/*.scss', 'src/assets/scss/theme/_colors.scss'],
     vendorcss: 'src/assets/css/vendor/*.*',
     img: 'src/assets/img/**/*.*',
+    fonts: 'src/assets/fonts/**/*.*',
     media: 'src/assets/media/**/*.*',
     php: 'src/assets/php/**/*.*'
   },
@@ -45,9 +51,11 @@ var path = {
     vendorjs: 'src/assets/js/vendor/*.*',
     css: ['src/assets/scss/**/*.scss', '!src/assets/scss/colors/*.scss', '!src/assets/scss/theme/_colors.scss'],
     cssCustom: ['src/assets/scssCustom/**/*.scss'],
+    fontcss: 'src/assets/scss/fonts/*.scss',
     colorcss: ['src/assets/scss/colors/*.scss', 'src/assets/scss/theme/_colors.scss'],
     vendorcss: 'src/assets/css/vendor/*.*',
     img: 'src/assets/img/**/*.*',
+    fonts: 'src/assets/fonts/**/*.*',
     media: 'src/assets/media/**/*.*',
     php: 'src/assets/php/',
     user: 'src/assets/scss/_user-variables.scss'
@@ -228,6 +236,55 @@ gulp.task('colorcss:dist', function () {
     .on('end', () => { reload(); });
 });
 
+// Move fonts
+gulp.task('fonts:dev', function () {
+  return gulp.src(path.src.fonts)
+    .pipe(newer(path.dev.fonts))
+    .pipe(gulp.dest(path.dev.fonts));
+});
+gulp.task('fonts:dist', function () {
+  return gulp.src(path.src.fonts)
+    .pipe(newer(path.dist.fonts))
+    .pipe(gulp.dest(path.dist.fonts));
+});
+
+// Compile font styles
+gulp.task('fontcss:dev', function () {
+  return gulp.src(path.src.fontcss)
+    .pipe(newer(path.dev.fontcss))
+    .pipe(plumber())
+    .pipe(sass()
+      .on('error', function (err) {
+        sass.logError(err);
+        this.emit('end');
+      })
+    )
+    .pipe(sassUnicode())
+    .pipe(autoprefixer())
+    .pipe(cleanCSS())
+    .pipe(beautify.css({ indent_size: 2, preserve_newlines: false, newline_between_rules: false }))
+    .pipe(gulp.dest(path.dev.fontcss))
+    .pipe(touch())
+});
+gulp.task('fontcss:dist', function () {
+  return gulp.src(path.src.fontcss)
+    .pipe(newer(path.dist.fontcss))
+    .pipe(plumber())
+    .pipe(sass()
+      .on('error', function (err) {
+        sass.logError(err);
+        this.emit('end');
+      })
+    )
+    .pipe(sassUnicode())
+    .pipe(autoprefixer())
+    .pipe(cleanCSS())
+    .pipe(beautify.css({ indent_size: 2, preserve_newlines: false, newline_between_rules: false }))
+    .pipe(gulp.dest(path.dist.fontcss))
+    .pipe(touch())
+    .on('end', () => { reload(); });
+});
+
 // Compile vendor styles
 gulp.task('vendorcss:dev', function () {
   return gulp.src(path.src.vendorcss)
@@ -378,11 +435,13 @@ gulp.task('build:dist',
       gulp.parallel(
       'html:dist',
       'css:dist',
+      'fontcss:dist',
       'cssCustom:dist',
       'colorcss:dist',
       'vendorcss:dist',
       'pluginsjs:dist',
       'themejs:dist',
+      'fonts:dist',
       'media:dist',
       'php:dist',
       'image:dist'
@@ -395,12 +454,14 @@ gulp.task('build:dist',
 gulp.task('watch', function () {
     gulp.watch(path.watch.html, gulp.series('html:dist'));
     gulp.watch(path.watch.css, gulp.series('css:dist'));
+    gulp.watch(path.watch.fontcss, gulp.series('fontcss:dist'));
     gulp.watch(path.watch.cssCustom, gulp.series('cssCustom:dist'));
     gulp.watch(path.watch.colorcss, gulp.series('colorcss:dist'));
     gulp.watch(path.watch.vendorcss, gulp.series('vendorcss:dist'));
     gulp.watch(path.watch.vendorjs, gulp.series('pluginsjs:dist'));
     gulp.watch(path.watch.themejs, gulp.series('themejs:dist'));
     gulp.watch(path.watch.img, gulp.series('image:dist'));
+    gulp.watch(path.watch.fonts, gulp.series('fonts:dist'));
     gulp.watch(path.watch.media, gulp.series('media:dist'));
     gulp.watch(path.watch.php, gulp.series('php:dist'));
     gulp.watch(path.watch.user, gulp.series('colorcss:dist'));

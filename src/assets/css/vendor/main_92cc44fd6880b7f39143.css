@@ -131,13 +131,13 @@
     min-height: 2.25rem;
     margin: 1.75rem 0 3.125rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more {
     padding: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more span {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more span {
     font-size: 0.7708333333rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more:after {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -149,7 +149,7 @@
     opacity: 0.2;
     transition: all 0.45s ease-in-out 0s;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more:hover::after {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more:hover::after {
     width: 100%;
     opacity: 0.8;
   }
@@ -219,7 +219,7 @@
     width: 2.3125rem;
     height: 2.3125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn-golmore {
+  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
     position: relative;
     margin-top: auto;
     margin-bottom: 2.8125rem;
@@ -264,12 +264,12 @@
   .main .container2 .main-box.insp-box .tab-ui .slick-next {
     right: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btns.type-main > ul .slick-prev {
+  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
     left: 1.5625rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btns.type-main > ul .slick-next {
+  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-next {
     right: 1.5625rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
@@ -333,7 +333,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn-golmore {
+  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn2-golmore {
     width: 1.875rem;
     height: 0.75rem;
     bottom: 2.5625rem;
@@ -365,7 +365,7 @@
     font-size: 0.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .btn-golmore {
+  .main .container2 .main-box.ftrd-prod-box .txt-box .btn2-golmore {
     width: 1.6875rem;
     height: 0.6875rem;
     bottom: 2.0625rem;
@@ -421,13 +421,13 @@
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .tab-ui .btns.type-main {
+  .main .container2 .main-box .tab-ui .btn2s.type-main {
     margin: 2.25rem 0 2.125rem 0;
   }
-  .main .container2 .main-box .tab-ui .btns.type-main li {
+  .main .container2 .main-box .tab-ui .btn2s.type-main li {
     margin: 0 0.1875rem;
   }
-  .main .container2 .main-box .tab-ui .btns ul .btn-tab button {
+  .main .container2 .main-box .tab-ui .btn2s ul .btn2-tab button {
     height: 1.75rem;
     font-weight: 600;
     font-size: 0.75rem;
@@ -579,13 +579,13 @@
     min-height: 2.25rem;
     margin: 1.75rem 0 3.125rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more {
     padding: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more span {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more span {
     font-size: 0.7708333333rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more:after {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -597,7 +597,7 @@
     opacity: 0.2;
     transition: all 0.45s ease-in-out 0s;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn-more:hover::after {
+  .main .container2 .main-box .slider-prod .txt-box .btn2-more:hover::after {
     width: 100%;
     opacity: 0.8;
   }
@@ -667,7 +667,7 @@
     width: 2.3125rem;
     height: 2.3125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn-golmore {
+  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
     position: relative;
     margin-top: auto;
     margin-bottom: 2.8125rem;
@@ -712,12 +712,12 @@
   .main .container2 .main-box.insp-box .tab-ui .slick-next {
     right: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btns.type-main > ul .slick-prev {
+  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
     left: 1.5625rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btns.type-main > ul .slick-next {
+  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-next {
     right: 1.5625rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
@@ -781,7 +781,7 @@
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn-golmore {
+  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn2-golmore {
     width: 1.875rem;
     height: 0.75rem;
     bottom: 2.5625rem;
@@ -813,7 +813,7 @@
     font-size: 0.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .btn-golmore {
+  .main .container2 .main-box.ftrd-prod-box .txt-box .btn2-golmore {
     width: 1.6875rem;
     height: 0.6875rem;
     bottom: 2.0625rem;
@@ -869,13 +869,13 @@
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .tab-ui .btns.type-main {
+  .main .container2 .main-box .tab-ui .btn2s.type-main {
     margin: 2.25rem 0 2.125rem 0;
   }
-  .main .container2 .main-box .tab-ui .btns.type-main li {
+  .main .container2 .main-box .tab-ui .btn2s.type-main li {
     margin: 0 0.1875rem;
   }
-  .main .container2 .main-box .tab-ui .btns ul .btn-tab button {
+  .main .container2 .main-box .tab-ui .btn2s ul .btn2-tab button {
     height: 1.75rem;
     font-weight: 600;
     font-size: 0.75rem;
@@ -979,10 +979,10 @@
   opacity: 1;
   transition: none;
 }
-.prod-dt-cate .slider-prod .slick-active .btn-more {
+.prod-dt-cate .slider-prod .slick-active .btn2-more {
   opacity: 1;
 }
-.prod-dt-cate .slider-prod .btn-more {
+.prod-dt-cate .slider-prod .btn2-more {
   position: relative;
   width: auto;
   height: 35px;
@@ -991,7 +991,7 @@
   opacity: 0;
   transition: all 0.5s ease-out 1.8s;
 }
-.prod-dt-cate .slider-prod .txt-box .btn-more:after {
+.prod-dt-cate .slider-prod .txt-box .btn2-more:after {
   content: "";
   position: absolute;
   left: 0px;
@@ -1003,11 +1003,11 @@
   opacity: 0.2;
   transition: all 0.45s ease-in-out 0s;
 }
-.prod-dt-cate .slider-prod .txt-box a.btn-more:hover::after {
+.prod-dt-cate .slider-prod .txt-box a.btn2-more:hover::after {
   width: 100%;
   opacity: 0.8;
 }
-.prod-dt-cate .slider-prod .btn-more span {
+.prod-dt-cate .slider-prod .btn2-more span {
   position: relative;
   display: block;
   padding-right: 41px;
@@ -1046,22 +1046,22 @@
 .prod-dt-cate .slider-prod .slick-dots .slick-active button {
   background: #0a0a0a;
 }
-.prod-dt-cate .slider-prod .slick-dots .btn-pause {
+.prod-dt-cate .slider-prod .slick-dots .btn2-pause {
   width: 9px;
   height: 11px;
   margin-left: 14px;
 }
-.prod-dt-cate .slider-prod .slick-dots .btn-pause button {
+.prod-dt-cate .slider-prod .slick-dots .btn2-pause button {
   width: inherit;
   height: inherit;
   background: url(https://img.lxhausys.com/public/images/products/ico_stop.png) center no-repeat;
 }
-.prod-dt-cate .slider-prod .slick-dots .btn-play {
+.prod-dt-cate .slider-prod .slick-dots .btn2-play {
   width: 9px;
   height: 11px;
   margin-left: 14px;
 }
-.prod-dt-cate .slider-prod .slick-dots .btn-play button {
+.prod-dt-cate .slider-prod .slick-dots .btn2-play button {
   width: inherit;
   height: inherit;
   background: url(https://img.lxhausys.com/public/images/products/ico_play.png) center no-repeat;
@@ -1147,7 +1147,7 @@
 .prod-dt-view .main-box.ftrd-prod-box .tab-ui, .prod-dt-view .main-box.seg-box .tab-ui, .prod-dt-view .main-box.insp-box .tab-ui {
   margin-top: 0;
 }
-.prod-dt-view .main-box.ftrd-prod-box .tab-ui .btns, .prod-dt-view .main-box.seg-box .tab-ui .btns, .prod-dt-view .main-box.insp-box .tab-ui .btns {
+.prod-dt-view .main-box.ftrd-prod-box .tab-ui .btn2s, .prod-dt-view .main-box.seg-box .tab-ui .btn2s, .prod-dt-view .main-box.insp-box .tab-ui .btn2s {
   margin: 64px 0;
 }
 
@@ -1276,7 +1276,7 @@
     height: 22px;
     background-image: url("https://img.lxhausys.com/public/images/main/ico_op_himacs.png");
   }
-  .ourprod-wrap.tab-ui .ourprod-slide .s-item .stm-info .btn-lmore {
+  .ourprod-wrap.tab-ui .ourprod-slide .s-item .stm-info .btn2-lmore {
     display: block;
     margin-top: 26px;
   }
@@ -1413,7 +1413,7 @@
     height: 22px;
     background-image: url("https://img.lxhausys.com/public/images/main/ico_op_himacs.png");
   }
-  .ourprod-wrap.m-ui .ourprod-slide .s-item .stm-info .btn-lmore {
+  .ourprod-wrap.m-ui .ourprod-slide .s-item .stm-info .btn2-lmore {
     display: block;
     margin-top: 26px;
   }
@@ -1502,7 +1502,7 @@
     background-position: left center;
     background-size: auto 100%;
   }
-  .ourprod-wrap.eu-m-ui .ourprod-slide .s-item .btn-golmore {
+  .ourprod-wrap.eu-m-ui .ourprod-slide .s-item .btn2-golmore {
     position: relative;
     display: block;
     margin-top: 1.25rem;
@@ -1552,7 +1552,7 @@
     height: 22px;
     background-image: url("https://img.lxhausys.com/public/images/main/ico_op_himacs.png");
   }
-  .ourprod-wrap.eu-m-ui .ourprod-slide .s-item .stm-info .btn-lmore {
+  .ourprod-wrap.eu-m-ui .ourprod-slide .s-item .stm-info .btn2-lmore {
     display: block;
     margin-top: 26px;
   }
@@ -1807,7 +1807,7 @@
   }
 }
 
-.wrapper-cokkie .btn-close {
+.wrapper-cokkie .btn2-close {
   position: absolute;
   top: 10px;
   right: 10px;

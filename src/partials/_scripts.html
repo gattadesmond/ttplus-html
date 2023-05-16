@@ -1,17 +1,10 @@
 <script src="@@webRoot/assets/img/jquery-3.7.0.min.js"></script>
 
 <script src="@@webRoot/assets/img/jquery-ui.js"></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-  integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-></script>
+
+<script src="@@webRoot/assets/img/bootstrap.bundle.min.js"></script>
+
+<script src="@@webRoot/assets/img/slick.min.js"></script>
 
 <script>
   $(".hero-slider").slick({
@@ -83,7 +76,7 @@
     $(".drag-products").slick("slickUnfilter");
     $(".drag-products").slick("slickFilter", "." + tabId);
   }
-  $(document).on("click", ".btn-tab", tabMenu);
+  $(document).on("click", ".btn2-tab", tabMenu);
 
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {
@@ -96,7 +89,7 @@
   $("#openSearch").on("click", function () {
     $(".hder-section").addClass("on");
   });
-  $(".btn-hd-close").on("click", function () {
+  $(".btn2-hd-close").on("click", function () {
     $(".hder-section").removeClass("on");
   });
   var theme = {
