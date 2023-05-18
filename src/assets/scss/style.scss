@@ -1,38 +1,125 @@
-/*!
-Theme Name: Sandbox - Modern & Multipurpose Bootstrap 5 Template
-Theme URI:	https://sandbox.elemisthemes.com/
-Version:	3.3.0
-Author:		elemis
-*/
+/*----------------------------------------------------
 
-// Bootstrap Functions
-@import "../../../node_modules/bootstrap/scss/functions";
+1. Global Area 
+2.header
+3.slider
+4.service
+5.about
+6.project
+7.work-process
+8.counter
+9.team
+10.testimonial
+11.appointment-video
+12.blog
+13.before-after
+14.skill
+15.price
+16.breadcrumb
+17.cta
+18.faq
+19.shop
+20.contact
+21.responsive
+=====================================================================*/
 
-// Theme colors
-@import "theme-colors";
 
-// User variables
-@import 'user-variables';
+@import "template";
 
-// Theme variables
-@import "variables";
+/*global area*/
+/*----------------------------------------------------*/
+@import "predefine";
+/*---------------------------------------------------- */
+/*Header area*/
+/*----------------------------------------------------*/
+@import "header";
+/*---------------------------------------------------- */
+/*Slider area*/
+/*----------------------------------------------------*/
+@import "slider";
+/*---------------------------------------------------- */
+/*Service area*/
+/*----------------------------------------------------*/
+@import "service";
+/*---------------------------------------------------- */
+/*About area*/
+/*----------------------------------------------------*/
+@import "about";
+/*---------------------------------------------------- */
+/*Project area*/
+/*----------------------------------------------------*/
+@import "project";
+/*---------------------------------------------------- */
+/*Work Process area*/
+/*----------------------------------------------------*/
+@import "work-process";
+/*---------------------------------------------------- */
+/*Counter area*/
+/*----------------------------------------------------*/
+@import "counter";
+/*---------------------------------------------------- */
+/*Team area*/
+/*----------------------------------------------------*/
+@import "team";
+/*---------------------------------------------------- */
+/*Testimonial area*/
+/*----------------------------------------------------*/
+@import "testimonial";
+/*---------------------------------------------------- */
+/*Appointment-Video area*/
+/*----------------------------------------------------*/
+@import "appointment-video";
+/*---------------------------------------------------- */
+/*Blog area*/
+/*----------------------------------------------------*/
+@import "blog";
+/*---------------------------------------------------- */
+/*Before After area*/
+/*----------------------------------------------------*/
+@import "before-after";
+/*---------------------------------------------------- */
+/*Skill area*/
+/*----------------------------------------------------*/
+@import "skill";
+/*---------------------------------------------------- */
+/*Price area*/
+/*----------------------------------------------------*/
+@import "price";
+/*---------------------------------------------------- */
+/*Breadcrumb area*/
+/*----------------------------------------------------*/
+@import "breadcrumb";
+/*---------------------------------------------------- */
+/*CTA area*/
+/*----------------------------------------------------*/
+@import "cta";
+/*---------------------------------------------------- */
+/*Faq area*/
+/*----------------------------------------------------*/
+@import "faq";
+/*---------------------------------------------------- */
+/*Shop area*/
+/*----------------------------------------------------*/
+@import "shop";
+/*---------------------------------------------------- */
+/*Contact area*/
+/*----------------------------------------------------*/
+@import "contact";
+/*---------------------------------------------------- */
+/*Footer area*/
+/*----------------------------------------------------*/
+@import "footer";
+/*---------------------------------------------------- */
+/*New Home area*/
+/*----------------------------------------------------*/
+@import "new-home";
+/*---------------------------------------------------- */
+/*Responsive area*/
+/*----------------------------------------------------*/
+@import "responsive";
+/*---------------------------------------------------- */
 
-// Bootstrap configuration
-@import "../../../node_modules/bootstrap/scss/variables";
-@import "../../../node_modules/bootstrap/scss/maps";
-@import "../../../node_modules/bootstrap/scss/mixins";
-@import "../../../node_modules/bootstrap/scss/utilities";
 
-// Theme configuration
-@import "theme/functions";
-@import "theme/mixins";
-@import "theme/utilities";
-@import "theme/root";
-
-// Bootstrap layout & components
-@import "bootstrap";
-
-// Theme layout & components
-@import "theme/theme";
-// User custom styles
-@import 'user';
+a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, input, kbd, label, legend, li, object, mark, menu, nav, ol, output, p, pre, q, ruby, s, samp, section, select, span, small, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+    line-height: 1.25em;
+}

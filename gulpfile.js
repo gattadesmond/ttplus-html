@@ -4,7 +4,7 @@
 var path = {
   dev: {
     html: 'dev/',
-    js: 'dev/assets/js/',
+    js: 'dev/assets/js/**/*.*',
     css: 'dev/assets/css/',
     style: 'dev/assets/css/',
     styleCustom: 'dev/assets/css/',
@@ -31,7 +31,7 @@ var path = {
   src: {
     html: ['src/**/*.html', '!src/partials/**/*.html', '!src/assets/php/**/*.html'],
     partials: 'src/partials/',
-    js: 'src/assets/js/',
+    js: 'src/assets/js/**/*.*',
     vendorjs: 'src/assets/js/vendor/*.*',
     themejs: 'src/assets/js/theme.js',
     style: 'src/assets/scss/style.scss',
@@ -56,6 +56,7 @@ var path = {
     vendorcss: 'src/assets/css/vendor/*.*',
     img: 'src/assets/img/**/*.*',
     fonts: 'src/assets/fonts/**/*.*',
+    js: 'src/assets/js/**/*.*',
     media: 'src/assets/media/**/*.*',
     php: 'src/assets/php/',
     user: 'src/assets/scss/_user-variables.scss'
@@ -235,6 +236,20 @@ gulp.task('colorcss:dist', function () {
     .pipe(touch())
     .on('end', () => { reload(); });
 });
+
+//Move js
+
+gulp.task('js:dev', function () {
+  return gulp.src(path.src.js)
+    .pipe(newer(path.dev.js))
+    .pipe(gulp.dest(path.dev.js));
+});
+gulp.task('js:dist', function () {
+  return gulp.src(path.src.js)
+    .pipe(newer(path.dist.js))
+    .pipe(gulp.dest(path.dist.js));
+});
+
 
 // Move fonts
 gulp.task('fonts:dev', function () {
@@ -418,10 +433,11 @@ gulp.task('build:dev',
       'html:dev',
       'css:dev',
       'cssCustom:dev',
-      'colorcss:dev',
+      // 'colorcss:dev',
       'vendorcss:dev',
-      'pluginsjs:dev',
-      'themejs:dev',
+      'js:dev',
+      // 'pluginsjs:dev',
+      // 'themejs:dev',
       'media:dev',
       'php:dev',
       'image:dev'
@@ -437,10 +453,11 @@ gulp.task('build:dist',
       'css:dist',
       'fontcss:dist',
       'cssCustom:dist',
-      'colorcss:dist',
+      // 'colorcss:dist',
       'vendorcss:dist',
-      'pluginsjs:dist',
-      'themejs:dist',
+      'js:dist',
+      // 'pluginsjs:dist',
+      // 'themejs:dist',
       'fonts:dist',
       'media:dist',
       'php:dist',
@@ -456,15 +473,16 @@ gulp.task('watch', function () {
     gulp.watch(path.watch.css, gulp.series('css:dist'));
     gulp.watch(path.watch.fontcss, gulp.series('fontcss:dist'));
     gulp.watch(path.watch.cssCustom, gulp.series('cssCustom:dist'));
-    gulp.watch(path.watch.colorcss, gulp.series('colorcss:dist'));
+    // gulp.watch(path.watch.colorcss, gulp.series('colorcss:dist'));
     gulp.watch(path.watch.vendorcss, gulp.series('vendorcss:dist'));
-    gulp.watch(path.watch.vendorjs, gulp.series('pluginsjs:dist'));
-    gulp.watch(path.watch.themejs, gulp.series('themejs:dist'));
+    gulp.watch(path.watch.vendorcss, gulp.series('js:dist'));
+    // gulp.watch(path.watch.vendorjs, gulp.series('pluginsjs:dist'));
+    // gulp.watch(path.watch.themejs, gulp.series('themejs:dist'));
     gulp.watch(path.watch.img, gulp.series('image:dist'));
     gulp.watch(path.watch.fonts, gulp.series('fonts:dist'));
     gulp.watch(path.watch.media, gulp.series('media:dist'));
     gulp.watch(path.watch.php, gulp.series('php:dist'));
-    gulp.watch(path.watch.user, gulp.series('colorcss:dist'));
+    // gulp.watch(path.watch.user, gulp.series('colorcss:dist'));
 });
 
 // Serve
