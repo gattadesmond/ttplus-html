@@ -20,7 +20,7 @@
 		cursor: pointer;
 		font-weight: 600;
 		color: var(--black-color);
-		margin-left: var(--margin-left-30);
+		// margin-left: var(--margin-left-30);
 		&.active {
 			color: var(--main-color);
 		}
@@ -29,6 +29,7 @@
 		}
 	}
 	button {
+		width: auto;
 		padding: 0;
 		border: none;
 		background-color: transparent;
@@ -216,11 +217,17 @@
 	}
 }
 .arck-project-filter-content {
-	padding: 0px 60px;
+	// padding: 0px 60px;
+
+	.inner-img{
+		img{
+			object-fit: cover;
+		}
+	}
 }
 .filtr-container-area {
 	.grid-sizer {
-		width: 25%;
+		width: 33.333%;
 	}
 	.grid-sizer,
 	.grid-item {
@@ -233,7 +240,7 @@
 		}
 	}
 	.grid-size-25 {
-		width: 25%;
+		width: 33.333%;
 	}
 	.grid-size-50 {
 		width: 50%;

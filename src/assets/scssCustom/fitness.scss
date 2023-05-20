@@ -3,6 +3,9 @@
   font-size: 48px;
   font-weight: bold;
 }
+body {
+  font-family: "Inter", sans-serif;
+}
 // 1440px
 // 1280px
 @media only screen and (max-width: 992px) {
@@ -58,5 +61,44 @@
     right: 0px;
     display: inline-block;
     z-index: -1;
+  }
+}
+
+.prod-dt-cate .slider-prod .slick-arrow::before {
+  display: none;
+}
+
+.ttplus-section {
+  padding: 90px 0;
+}
+
+.ttplus-title {
+  margin-bottom: 40px;
+}
+
+.arck-project-filter-btn .button-group {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .filter-button {
+    padding: 5px 10px;
+  }
+}
+
+.arck-project-filter-content{
+  .inner-img{
+    
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1440px;
   }
 }
