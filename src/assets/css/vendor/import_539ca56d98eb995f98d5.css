@@ -1114,7 +1114,7 @@ h4.tit-sub-02 {
   width: 100%;
   min-height: calc(100vh - 100px);
   margin-top: 120px;
-  padding-bottom: 110px;
+  /* padding-bottom: 110px; */
   transition-duration: 0.3s;
   top: 0;
 }
