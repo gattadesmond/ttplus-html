@@ -1132,17 +1132,15 @@
   }
 }
 .prod-dt-view .main-box.insp-box {
-  margin-top: 216px;
   align-self: center;
 }
 @media (max-width: 1440px) {
   .prod-dt-view .main-box.insp-box {
-    margin-top: 151px;
   }
 }
 @media (max-width: 768px) {
   .prod-dt-view .main-box.insp-box {
-    margin-top: 7.9583333333rem;
+    /* margin-top: 7.9583333333rem; */
   }
 }
 .prod-dt-view .main-box.ftrd-prod-box .tab-ui, .prod-dt-view .main-box.seg-box .tab-ui, .prod-dt-view .main-box.insp-box .tab-ui {

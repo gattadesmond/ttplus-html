@@ -2027,11 +2027,10 @@ body {
 }
 
 .arck-project-filter-content {
-  padding: 0px 60px;
 }
 
 .filtr-container-area .grid-sizer {
-  width: 25%;
+  width: 33.33%;
 }
 .filtr-container-area .grid-sizer,
 .filtr-container-area .grid-item {
@@ -2045,7 +2044,7 @@ body {
   width: 100%;
 }
 .filtr-container-area .grid-size-25 {
-  width: 25%;
+  width: 33.33%;
 }
 .filtr-container-area .grid-size-50 {
   width: 50%;

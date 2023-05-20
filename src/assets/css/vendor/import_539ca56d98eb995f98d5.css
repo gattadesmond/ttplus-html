@@ -9816,8 +9816,6 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
 
 /* scroll list */
 .overscr-list-wrap {
-  height: 750px;
-  padding: 20px 0;
   overflow-x: auto;
   overflow-y: hidden;
 }
@@ -9833,7 +9831,6 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
 }
 .overscr-list-wrap .overscr-list {
   width: auto;
-  height: 700px;
   white-space: nowrap;
 }
 .overscr-list-wrap .overscr-list > ul {
@@ -9843,8 +9840,7 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 394px;
-  height: 700px;
+ 
   cursor: pointer;
 }
 .overscr-list-wrap .overscr-list > ul > li ~ li {
@@ -10039,7 +10035,6 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
 /* Get Inspired */
 .insp-box {
   max-width: 1440px;
-  margin: 170px auto 0;
 }
 @media (max-width: 1440px) {
   .insp-box {
@@ -12307,17 +12302,14 @@ h3.tit {
   }
 }
 .prod-dt-view .main-box.insp-box {
-  margin-top: 216px;
   align-self: center;
 }
 @media (max-width: 1440px) {
   .prod-dt-view .main-box.insp-box {
-    margin-top: 151px;
   }
 }
 @media (max-width: 768px) {
   .prod-dt-view .main-box.insp-box {
-    margin-top: 7.9583333333rem;
   }
 }
 .prod-dt-view .main-box.ftrd-prod-box .tab-ui, .prod-dt-view .main-box.seg-box .tab-ui, .prod-dt-view .main-box.insp-box .tab-ui {
@@ -22504,7 +22496,6 @@ a.link-arrow-white {
 .tab-ui {
   width: 100%;
   height: auto;
-  margin-bottom: 50px;
 }
 @media (max-width: 768px) {
   .tab-ui {
@@ -22625,7 +22616,6 @@ a.link-arrow-white {
 }
 .tab-ui-nav {
   position: relative;
-  margin: 60px 0;
 }
 @media (max-width: 768px) {
   .tab-ui-nav {

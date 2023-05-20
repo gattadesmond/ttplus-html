@@ -83,6 +83,7 @@ body {
   justify-content: center;
   .filter-button {
     padding: 5px 10px;
+    width: auto;
   }
 }
 
@@ -91,6 +92,7 @@ body {
     
   }
 }
+
 
 @media (min-width: 1400px) {
   .container,
@@ -101,4 +103,9 @@ body {
   .container-xxl {
     max-width: 1440px;
   }
+}
+
+.arck-sponsor-slider .arck-sponsor-slider-item{
+  padding-left: 20px;
+  padding-right: 20px;
 }
