@@ -125,7 +125,16 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   padding: 8px 15px;
   cursor: pointer;
   &:hover{
-    color: #9c0216
+    color: white
+  }
+  .dropdown-toggle{
+    color: white
+  }
+}
+
+.sticky-on{
+  .dropdown-toggle{
+    color:  rgba(0,0,0,0.9)
   }
 }
 
@@ -160,3 +169,4 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   font-size: 14px;
   margin-top: 15px;
 }
+
