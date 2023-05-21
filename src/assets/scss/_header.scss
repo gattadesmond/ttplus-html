@@ -23,7 +23,7 @@
 	}
 	.dropdown-menu {
 		left: 0;
-		top: 68px;
+		top: 50px;
 		z-index: 100;
 		margin: 0px;
 		padding: 20px 0;
@@ -91,12 +91,14 @@
 	}
 	.main-navigation {
 		li {
-			margin: 0px 30px;
+			margin: 0px 20px;
 			a {
+				font-size: 18px;
 				font-weight: 600;
-				color: var(--white-color);
+				color: rgba(255,255,255,0.8);
 				text-transform: uppercase;
-				padding-bottom: var(--padding-bottom-45);
+				padding-bottom: 30px;
+				// padding-bottom: var(--padding-bottom-45);
 			}
 			&:hover {
 				a {
@@ -110,9 +112,10 @@
 		left: 0;
 		width: 100%;
 		z-index: 100;
-		padding: 35px 60px;
+		padding: 8px 60px;
 		position: absolute;
-		background-color: var(--black-color-2);
+		background-color: transparent;
+		// background-color: var(--black-color-2);
 		&.inner-page-header {
 			background-color: rgba(31, 31, 31, 0.302);
 		}
@@ -173,19 +176,30 @@
 	width: 100%;
 	z-index: 20;
 	position: fixed;
-	padding: 30px 60px;
+	padding: 8px 60px;
 	animation-duration: .7s;
 	animation-fill-mode: both;
 	animation-name: fadeInDown;
-	background-color: var(--black-color);
+	// background-color: var(--black-color);
+	background-color: white;
 	animation-timing-function: ease;
 	transition: .3s all ease-in-out;
 	box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+	color:rgb(0, 0, 0, .25);
 	.dropdown-menu {
-		top: 60px;
+		top: 50px;
 	}
 	&.inner-page-header {
 		background-color: rgba(31, 31, 31, 1);
+	}
+	.main-navigation li{
+		color: rgba(0,0,0,0.8)
+	}
+	.main-navigation li a{
+		color: rgba(0,0,0,0.8)
+	}
+	.mobile_menu_button{
+		color: rgba(0,0,0,0.9)
 	}
 }
 /*Mobile area*/
@@ -244,7 +258,7 @@
 	}
 	.m-brand-logo {
 		width: 120px;
-		margin: 50px auto;
+		margin: 20px 0;
 	}
 }
 .mobile_menu_wrap.mobile_menu_on .mobile_menu_content {
