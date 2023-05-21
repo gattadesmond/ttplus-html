@@ -113,3 +113,18 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.header-cta{
+  font-size: 20px;
+  display: flex ;
+  align-items: center;
+
+}
+
+.header-cta-btn{
+  padding: 8px 15px;
+  cursor: pointer;
+  &:hover{
+    color: #9c0216
+  }
+}
