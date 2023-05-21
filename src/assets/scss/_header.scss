@@ -90,6 +90,11 @@
 		}
 	}
 	.main-navigation {
+		#main-nav>li>a{
+			&:hover{
+				text-decoration: underline;
+			}
+		}
 		li {
 			margin: 0px 20px;
 			a {
@@ -102,7 +107,8 @@
 			}
 			&:hover {
 				a {
-					color: var(--main-color);
+					// color: var(--main-color);
+					// text-decoration: underline;
 				}
 			}
 		}

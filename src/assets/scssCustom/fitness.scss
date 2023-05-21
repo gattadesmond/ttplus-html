@@ -128,3 +128,20 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
     color: #9c0216
   }
 }
+
+.hder-section .hd-close .btn-hd-close {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: url(https://img.lxhausys.com/public/images/header/btn_header_close.png) no-repeat center center #f2f2f2;
+}
+
+.sch-top .sch-frm .btn-hd-sch {
+  display: inline-block;
+  width: 55px;
+  height: 27px;
+  background: url(https://img.lxhausys.com/public/images/header/btn_header_search.png) no-repeat center center;
+}
