@@ -20,7 +20,95 @@ body {
   }
 }
 
-a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figure, figcaption, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, input, kbd, label, legend, li, object, mark, menu, nav, ol, output, p, pre, q, ruby, s, samp, section, select, span, small, strike, strong, sub, summary, sup, table, tbody, td, textarea, tfoot, th, thead, time, tr, tt, u, ul, var, video{
+a,
+a:active,
+a:hover,
+a:link,
+a:visited,
+abbr,
+acronym,
+address,
+applet,
+article,
+aside,
+audio,
+b,
+big,
+blockquote,
+body,
+button,
+canvas,
+caption,
+center,
+cite,
+code,
+dd,
+del,
+details,
+dfn,
+div,
+dl,
+dt,
+em,
+embed,
+fieldset,
+figure,
+figcaption,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+html,
+i,
+iframe,
+img,
+ins,
+input,
+kbd,
+label,
+legend,
+li,
+object,
+mark,
+menu,
+nav,
+ol,
+output,
+p,
+pre,
+q,
+ruby,
+s,
+samp,
+section,
+select,
+span,
+small,
+strike,
+strong,
+sub,
+summary,
+sup,
+table,
+tbody,
+td,
+textarea,
+tfoot,
+th,
+thead,
+time,
+tr,
+tt,
+u,
+ul,
+var,
+video {
   line-height: 1.25em;
 }
 
@@ -71,9 +159,14 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
 .prod-dt-cate .slider-prod .slick-arrow::before {
   display: none;
 }
-
 .ttplus-section {
   padding: 90px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .ttplus-section {
+    padding: 30px 0;
+  }
 }
 
 .ttplus-title {
@@ -91,12 +184,10 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   }
 }
 
-.arck-project-filter-content{
-  .inner-img{
-    
+.arck-project-filter-content {
+  .inner-img {
   }
 }
-
 
 @media (min-width: 1400px) {
   .container,
@@ -109,32 +200,31 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   }
 }
 
-.arck-sponsor-slider .arck-sponsor-slider-item{
+.arck-sponsor-slider .arck-sponsor-slider-item {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.header-cta{
+.header-cta {
   font-size: 20px;
-  display: flex ;
+  display: flex;
   align-items: center;
-
 }
 
-.header-cta-btn{
+.header-cta-btn {
   padding: 8px 15px;
   cursor: pointer;
-  &:hover{
-    color: white
+  &:hover {
+    color: white;
   }
-  .dropdown-toggle{
-    color: white
+  .dropdown-toggle {
+    color: white;
   }
 }
 
-.sticky-on{
-  .dropdown-toggle{
-    color:  rgba(0,0,0,0.9)
+.sticky-on {
+  .dropdown-toggle {
+    color: rgba(0, 0, 0, 0.9);
   }
 }
 
@@ -145,28 +235,54 @@ a, a:active, a:hover, a:link, a:visited, abbr, acronym, address, applet, article
   right: 0;
   width: 60px;
   height: 60px;
-  background: url(https://img.lxhausys.com/public/images/header/btn_header_close.png) no-repeat center center #f2f2f2;
+  background: url(https://img.lxhausys.com/public/images/header/btn_header_close.png)
+    no-repeat center center #f2f2f2;
 }
 
 .sch-top .sch-frm .btn-hd-sch {
   display: inline-block;
   width: 55px;
   height: 27px;
-  background: url(https://img.lxhausys.com/public/images/header/btn_header_search.png) no-repeat center center;
+  background: url(https://img.lxhausys.com/public/images/header/btn_header_search.png)
+    no-repeat center center;
 }
 
-.ft-title{
+.ft-title {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.an-hung-footer{
-  color: rgba(255,255,255,0.6)
+.an-hung-footer {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .ft-address {
   font-size: 14px;
   margin-top: 15px;
 }
+@media screen and (min-width: 1200px) {
+  .container.sub {
+    max-width: 1200px;
+  }
+}
 
+.ttplus-section-bg-dark {
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  &:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.text-black {
+  color: rgba(0, 0, 0, 0.9);
+}
