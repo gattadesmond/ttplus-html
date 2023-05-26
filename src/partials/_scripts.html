@@ -65,6 +65,33 @@
     ],
   });
 
+  $(".drag_segments").slick({
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    swipeToSlide: true,
+    infinite: false,
+    touchThreshold: 10,
+    variableWidth: true,
+    dots: false,
+    prevArrow: false,
+    nextArrow: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          infinite: true,
+        },
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ],
+  });
+
+
   $(".ourprod-content .visual-item").hover(
     function (index) {
       $(".ourprod-view .item").eq($(this).index()).addClass("show");
@@ -81,7 +108,7 @@
       $(this).siblings().removeClass("off");
     }
   );
-
+  
   function tabMenu() {
     var tabId = $(this).attr("data-tab");
 
@@ -93,7 +120,23 @@
     $(".drag-products").slick("slickUnfilter");
     $(".drag-products").slick("slickFilter", "." + tabId);
   }
-  $(document).on("click", ".btn2-tab", tabMenu);
+  $(document).on("click", ".btn1-filter", tabMenu);
+
+
+  function tabMenu2() {
+    var tabId = $(this).attr("data-tab");
+
+    $(this).addClass("on").siblings("li").removeClass("on");
+    $("." + tabId)
+      .addClass("on")
+      .siblings("div")
+      .removeClass("on");
+    $(".drag_segments").slick("slickUnfilter");
+    $(".drag_segments").slick("slickFilter", "." + tabId);
+  }
+  $(document).on("click", ".btn3-filter", tabMenu2);
+
+
 
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {

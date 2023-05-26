@@ -10488,9 +10488,7 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
   }
   .ourprod-box,
 .ftrd-prod-box,
-.seg-box {
-    margin-top: 40px;
-  }
+
   .tab-ui .btn2s.type-main li {
     margin: 0 10px;
   }
@@ -12288,18 +12286,10 @@ h3.tit {
 .prod-dt-view .main-box.ourprod-box p {
   align-self: center;
 }
-.prod-dt-view .main-box.ftrd-prod-box, .prod-dt-view .main-box.seg-box {
-  margin-top: 216px;
-}
-@media (max-width: 1440px) {
-  .prod-dt-view .main-box.ftrd-prod-box, .prod-dt-view .main-box.seg-box {
-    margin-top: 151px;
-  }
-}
+
+
 @media (max-width: 768px) {
-  .prod-dt-view .main-box.ftrd-prod-box, .prod-dt-view .main-box.seg-box {
-    margin-top: 7.9583333333rem;
-  }
+
 }
 .prod-dt-view .main-box.insp-box {
   align-self: center;
