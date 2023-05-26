@@ -4,7 +4,7 @@
   font-weight: bold;
 }
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 // 1440px
 // 1280px
@@ -283,6 +283,8 @@ video {
   }
 }
 
+
+
 .text-black {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -328,4 +330,10 @@ video {
 }
 .menu-box ul li{
   text-align: left;
+}
+
+.gioithieu-bg-logo{
+  opacity: 0.1;
+  z-index: -1;
+  filter: grayscale(100%);
 }

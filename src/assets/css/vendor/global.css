@@ -16,10 +16,10 @@
   --body-color: rgb(85, 85, 85);
   --body-color-2: #817E7E;
   /* Fonts */
-  --heading: 'Inter';
-  --body-font: 'Inter';
-  --heading-2: 'Inter';
-  --body-font-2: 'Inter';  
+  --heading:  'Montserrat', sans-serif;
+  --body-font:  'Montserrat', sans-serif;
+  --heading-2:  'Montserrat', sans-serif;
+  --body-font-2:  'Montserrat', sans-serif; 
   --transition: 500ms all ease;
 /* Fonts Size's */
 
