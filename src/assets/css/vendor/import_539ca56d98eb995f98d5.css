@@ -13539,7 +13539,7 @@ em, address {
 
 
 
-button {
+/* button {
   display: inline-block;
   width: 100%;
   border: none;
@@ -13551,7 +13551,7 @@ button {
   text-decoration: none;
   -webkit-appearance: none;
   cursor: pointer;
-}
+} */
 
 iframe[name=google_conversion_frame], iframe[name=txnIdGetterFrame] {
   display: none;
