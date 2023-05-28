@@ -230,9 +230,9 @@
     <div id="location">
       <ul class="locationWrap">
         <li>
-          <a href="http://www.lxhausys.com/" class="btnHome"><span class="hide">home</span></a>
+          <a href="index.html" class="btnHome"><span class="hide">home</span></a>
         </li>
-        <li>Building & Interior</li>
+        <li><a href="sanpham.html">Sản phẩm</a></li>
         <li>Interior Film</li>
       </ul>
     </div>
@@ -980,7 +980,7 @@
   <script>
     var nthSlide = 0;
     $(function() {
-      $('.locationWrap li').last().after('<li class="backTopList"><a href="javascript:goBack();">Back to List</a></>');
+      // $('.locationWrap li').last().after('<li class="backTopList"><a href="javascript:goBack();">Back to List</a></>');
       if ($('#inspirationCont').length == 0) $('.tabArea ul li').eq(2).remove();
       if ($('.informationArea .scrollArea ul li').length == 0) $('.informationArea').remove();
       $('.imgSlide').imagesLoaded(function() {

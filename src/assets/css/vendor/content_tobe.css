@@ -2742,9 +2742,7 @@ body.scrolltop #wapper.businessList #header.notEfc {
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-#container.businessList #location {
-  margin-top: 20px;
-}
+
 #container.businessList .locationWrap li.backTopList a {
   position: relative;
   padding-left: 20px;
