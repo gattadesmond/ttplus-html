@@ -1,21 +1,5 @@
 @charset "UTF-8";
 
-a:link {
-  color: #231f20;
-  text-decoration: none;
-}
-a:visited {
-  color: #231f20;
-  text-decoration: none;
-}
-a:hover {
-  color: #231f20;
-  text-decoration: none;
-}
-a:active {
-  color: #231f20;
-  text-decoration: none;
-}
 
 em {
   font-style: normal;
@@ -44,7 +28,7 @@ select {
   text-align: center;
 }
 strong {
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 textarea {
   border: none;
@@ -244,7 +228,7 @@ h1 a {
   padding: 23px 12px 23px;
   color: #000;
   font-size: 19px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   box-sizing: border-box;
 }
 .subDepthArea {
@@ -276,7 +260,7 @@ h1 a {
   display: block;
   padding: 12px 18px;
   font-size: 16px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   color: #5e5c5b;
   transition: all 0.2s ease-out 0s;
@@ -349,12 +333,12 @@ h1 a {
   position: relative;
   color: #fff;
   font-size: 38px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1em;
   padding-right: 35px;
 }
 /* .subDepthArea .subDepthMenu>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a:after{content:''; position:absolute; right:0px; top:15px; width:15px; height:25px; background:url(../img/common/ico_common.png) no-repeat -17px -26px;} */
-/* .subDepthArea .subDepthMenu>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a span{display:inline-block; margin-top:-10px; font-size:20px; font-family: "LGSmHaL";} */
+/* .subDepthArea .subDepthMenu>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a span{display:inline-block; margin-top:-10px; font-size:20px; font-family: "Montserrat",sans-serif;} */
 .subDepthArea
   .subDepthMenu
   > li
@@ -381,7 +365,7 @@ h1 a {
   text-align: center;
   font-size: 12px;
   font-weight: 700;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   color: #fff;
   letter-spacing: 2px;
 }
@@ -464,7 +448,7 @@ h1 a {
   right: 0px;
   top: -10px;
   font-size: 14px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
 }
 .subDepthArea
@@ -499,7 +483,7 @@ h1 a {
   p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.2em;
 }
@@ -568,7 +552,7 @@ h1 a {
   position: relative;
   color: #fff;
   font-size: 38px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1em;
   padding-right: 35px;
 }
@@ -577,12 +561,12 @@ h1 a {
   position: relative;
   color: #fff;
   font-size: 44px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   line-height: 1em;
   padding-right: 35px;
 }
 /* #gnb>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a:after{content:''; position:absolute; right:0px; top:15px; width:15px; height:25px; background:url(../img/common/ico_common.png) no-repeat -17px -26px;}
-	#gnb>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a span{display:inline-block; margin-top:-10px; font-size:20px; font-family: "LGSmHaL";} */
+	#gnb>li>.subDepth2 .subDepth2Wrap .bannerArea .bannerTit a span{display:inline-block; margin-top:-10px; font-size:20px; font-family: "Montserrat",sans-serif;} */
 #gnb > li > .subDepth2 .subDepth2Wrap .bannerArea .textArea .icoArea {
   margin-bottom: 10px;
 }
@@ -594,7 +578,7 @@ h1 a {
   text-align: center;
   font-size: 12px;
   font-weight: 700;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   color: #fff;
   letter-spacing: 2px;
 }
@@ -633,7 +617,7 @@ h1 a {
   right: 0px;
   top: -10px;
   font-size: 14px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
 }
 #gnb > li > .subDepth2 .subDepth2Wrap .bannerArea .textArea strong > em.new {
@@ -645,7 +629,7 @@ h1 a {
 #gnb > li > .subDepth2 .subDepth2Wrap .bannerArea .textArea p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.8);
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.2em;
 }
@@ -686,7 +670,7 @@ h1 a {
   left: 30px;
   top: 34px;
   color: #000;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   font-size: 14px;
   padding-left: 30px;
@@ -719,7 +703,7 @@ h1 a {
   color: #000;
   font-size: 14px;
   font-weight: 500;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
 }
 #gnb .ico_global ul li a:after {
   content: "";
@@ -805,7 +789,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding: 6px 15px 6px 5px;
   font-size: 22px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
 }
 #gnb > li:nth-child(1) li:nth-child(1) .menuContWrap .smallMenu ul li a:hover {
@@ -864,7 +848,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 100%;
   font-size: 22px;
   width: 182px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
 }
 #gnb > li:nth-child(1) li:nth-child(2) .menuContWrap .smallMenu > ul > li {
@@ -874,7 +858,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: inline-block;
   position: relative;
   width: 100%;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   transition: all 1s ease-out 0s;
@@ -884,7 +868,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   margin-bottom: 16px;
   font-size: 22px;
   width: 100%;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 100%;
   position: relative;
 }
@@ -959,7 +943,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   left: 50px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 170px;
 }
 #gnb > li:nth-child(1) li:nth-child(3) .menuContWrap .smallMenu strong a {
@@ -992,7 +976,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: block;
   position: relative;
   padding-left: 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   color: #800039;
   font-size: 11px;
@@ -1038,7 +1022,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 150px;
   line-height: 1em;
   padding: 9px 15px 9px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -1099,7 +1083,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   left: 50px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 200px;
 }
 #gnb > li:nth-child(1) li:nth-child(4) .menuContWrap .smallMenu strong a:hover {
@@ -1138,7 +1122,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 180px;
   line-height: 1em;
   padding: 6px 15px 6px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -1211,7 +1195,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding: 6px 15px 6px 5px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
   padding: 10px 0;
 }
@@ -1345,7 +1329,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding: 6px 15px 6px 5px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
 }
 #gnb > li:nth-child(1) li:nth-child(6) .menuContWrap .smallMenu ul li a:hover {
@@ -1404,7 +1388,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   left: 50px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 200px;
 }
 #gnb > li:nth-child(1) li:nth-child(7) .menuContWrap .smallMenu strong a:hover {
@@ -1442,7 +1426,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 180px;
   line-height: 1em;
   padding: 6px 15px 6px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -1504,7 +1488,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   left: 50px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 223px;
 }
 #gnb > li:nth-child(2) li:nth-child(1) .menuContWrap .smallMenu strong a:hover {
@@ -1542,7 +1526,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 180px;
   line-height: 1em;
   padding: 6px 15px 6px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -1610,7 +1594,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding: 6px 15px 6px 5px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
 }
 #gnb > li:nth-child(2) li:nth-child(2) .menuContWrap .smallMenu ul li a:hover {
@@ -1660,7 +1644,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   left: 50px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   width: 140px;
 }
 #gnb > li:nth-child(2) li:nth-child(3) .menuContWrap .smallMenu strong a:hover {
@@ -1698,7 +1682,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   width: 100px;
   line-height: 1em;
   padding: 6px 15px 6px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 15px;
   color: #000;
@@ -1734,7 +1718,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   top: 34px;
   padding: 0 15px 0 48px;
   font-size: 14px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   letter-spacing: 0.2px;
 }
@@ -1790,7 +1774,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding: 6px 15px 6px 5px;
   font-size: 24px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   transition: all 0.5s ease-out 0s;
 }
 #gnb > li:nth-child(3) .menuContWrap .smallMenu ul li a:hover {
@@ -1838,7 +1822,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding-top: 95px;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
 }
 #gnb > li:nth-child(4) .mergeArea ul li a:after {
@@ -1912,7 +1896,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   padding-top: 95px;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
 }
 #gnb > li:nth-child(5) .mergeArea ul li a:after {
@@ -1976,7 +1960,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: inline-block;
   position: relative;
   font-size: 22px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   color: #595457;
   padding-right: 26px;
 }
@@ -2089,7 +2073,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: block;
   margin-bottom: 24px;
   font-size: 22px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   color: #595457;
 }
 #gnb
@@ -2117,7 +2101,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: inline-block;
   position: relative;
   font-size: 15px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   color: #595457;
   padding-right: 25px;
@@ -2180,7 +2164,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   line-height: 1.2em;
   font-size: 15px;
   font-weight: 700;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
 }
 #gnb
   > li:nth-child(6)
@@ -2193,7 +2177,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   line-height: 1.4em;
   font-size: 15px;
   font-weight: 400;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   color: #737373;
 }
 #gnb > li:nth-child(6) > .subDepth2 .subDepth2Wrap .bannerArea {
@@ -2202,10 +2186,10 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
 /* #gnb>li:nth-child(6) .menuContWrap .smallMenu:nth-child(3){border-right:0}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu:last-child ul li{line-height:30px;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li{padding:10px 0}
-	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li a{display:inline-block; position:relative; width:180px; line-height:1em; padding:6px 15px 6px 5px; font-size:22px; color:#000; font-family: "Inter",sans-serif;  transition: all 0.5s ease-out 0s;}
+	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li a{display:inline-block; position:relative; width:180px; line-height:1em; padding:6px 15px 6px 5px; font-size:22px; color:#000; font-family: "Montserrat",sans-serif;  transition: all 0.5s ease-out 0s;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li a:hover{color:#800039;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li a:hover::after{content:''; position:absolute; right:6px; top:50%; width:7px; height:12px; margin-top:-5px; background:url(../img/common/ico_common.png) no-repeat -669px 0;  animation-name:gnbSmallIco;  animation-duration: 1s; animation-fill-mode: both; animation-timing-function:cubic-bezier(0.44, 0.01, 0.7, 1.13)}
-	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li .footArea span{display:block; font-family: '"Inter",sans-serif'; font-size:15px; font-weight:400;}
+	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li .footArea span{display:block; font-family: '"Montserrat",sans-serif'; font-size:15px; font-weight:400;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu ul li .footArea .imgArea{padding:32px 0 0 0px;;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu:nth-child(3) ul li strong{display:inline-block; margin-bottom:10px;}
 	#gnb>li:nth-child(6) .menuContWrap .smallMenu:nth-child(3) ul li a:hover::after{top:15px} */
@@ -2269,7 +2253,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   color: #6d6e71;
   opacity: 0.8;
   font-size: 12px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
 }
 #utilMenu > li:nth-child(3) a {
@@ -2389,7 +2373,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   font-weight: 700;
   color: #919294;
   line-height: 14px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   cursor: pointer;
 }
 .eui_utilSelect .euiSelectList {
@@ -2448,7 +2432,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   font-size: 26px;
   border: 0;
   background: none;
-  font-family: LGSmHaL;
+  font-family: "Montserrat",sans-serif;
   caret-color: #fff;
   color: #ad004d;
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
@@ -2545,7 +2529,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   font-size: 0;
 }
 .footer-tobe .pc-view .footer-copy {
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   letter-spacing: -0.025em;
   text-align: center;
@@ -2608,7 +2592,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
 #footer .footMenu > div > ul > li a {
   color: #fff;
   font-size: 12px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   opacity: 0.5;
   font-weight: 400;
 }
@@ -2682,14 +2666,14 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   top: 0;
   color: #fff;
   font-size: 14px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   height: 66px;
   line-height: 64px;
 }
 #footer .footMenu .newsletterCont .inputArea input {
   width: 100%;
   font-size: 36px;
-  font-family: LGSmHaL;
+  font-family: "Montserrat",sans-serif;
   background: none;
   border: 0;
   caret-color: #fff;
@@ -2720,7 +2704,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   float: left;
   color: #fff;
   opacity: 0.5;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
@@ -2759,7 +2743,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
 #footer .fotCopy ul li a {
   color: #fff;
   opacity: 0.5;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   font-size: 12px;
 }
@@ -2798,7 +2782,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   margin-right: 18px;
   vertical-align: middle;
   font-size: 16px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   color: #6b7478;
 }
@@ -2826,7 +2810,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
 }
 #location .locationWrap li a {
   font-size: 16px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   color: #6b7478;
 }
@@ -2870,7 +2854,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
 }
 #sitemap h3 {
   padding: 130px 0 0;
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
   color: #fff;
   font-size: 44px;
   line-height: 1em;
@@ -2890,7 +2874,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   margin-top: 70px;
   font-size: 20px;
   padding-bottom: 14px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   border-bottom: 1px solid #ad004d;
   color: #ad004d;
@@ -2948,7 +2932,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   font-size: 20px;
   padding-right: 20px;
   color: #fff;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   box-sizing: border-box;
   margin-right: 35px;
   opacity: 0.8;
@@ -3022,7 +3006,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   font-size: 20px;
   padding-right: 20px;
   color: #fff;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   box-sizing: border-box;
   margin-right: 35px;
   opacity: 0.8;
@@ -3033,7 +3017,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   display: block;
   margin-top: 25px;
   opacity: 0.8;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-size: 15px;
   color: #fff;
   letter-spacing: 1px;
@@ -3131,7 +3115,7 @@ body.scrolltop #gnb > li:nth-child(5) .subDepthArea .subDepthMenu {
   position: relative;
   font-size: 20px;
   color: #ad004d;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   box-sizing: border-box;
   opacity: 1;
   line-height: 1.2em;
@@ -3576,7 +3560,7 @@ a.btnMoreA {
   text-align: center;
   font-size: 14px;
   color: #000;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #fff;
 }
@@ -3588,14 +3572,14 @@ a.btnMoreB {
   text-align: center;
   font-size: 16px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #000;
 }
 a.btnMoreC {
   display: inline-block;
   position: relative;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   color: #000;
   font-size: 16px;
@@ -3613,7 +3597,7 @@ a.btnMoreC:after {
   display: inline-block;
   position: relative;
   padding-right: 54px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 14px;
@@ -3635,7 +3619,7 @@ a.btnTypeB {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #000;
 }
@@ -3647,7 +3631,7 @@ a.btnTypeC {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #000;
 }
@@ -3659,7 +3643,7 @@ a.btnTypeD {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #000;
 }
@@ -3671,7 +3655,7 @@ a.btnTypeF {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #c00000;
   margin-bottom: 4%;
@@ -3684,7 +3668,7 @@ a.btnTypeG {
   text-align: center;
   font-size: 14px;
   color: #fff;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   font-weight: 700;
   background: #404040;
 }
@@ -3772,7 +3756,7 @@ a.btnTypeG {
 }
 #newsReceivePop p {
   color: #fff;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -3844,7 +3828,7 @@ a.btnTypeG {
   box-sizing: border-box;
   padding: 20px 5px;
   font-size: 18px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1em;
 }
@@ -3875,7 +3859,7 @@ table.tableTypeA {
 table.tableTypeA thead th {
   padding: 28px 20px;
   font-size: 16px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeA thead th:last-child {
   text-align: center;
@@ -3883,7 +3867,7 @@ table.tableTypeA thead th:last-child {
 table.tableTypeA tbody th {
   background: #e1e1e4;
   font-size: 18px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeA tbody td,
 table.tableTypeA tbody th {
@@ -3898,7 +3882,7 @@ table.tableTypeA td {
 }
 table.tableTypeA td {
   font-size: 16px;
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeA td:last-child {
   text-align: center;
@@ -3914,7 +3898,7 @@ table.tableTypeB thead th:last-child {
 }
 table.tableTypeB thead th {
   padding: 23px 50px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeB th,
 table.tableTypeB td {
@@ -3922,7 +3906,7 @@ table.tableTypeB td {
   padding-bottom: 12px;
   border-top: 1px solid #b2b2b2;
   font-size: 16px;
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
   font-weight: normal;
 }
 table.tableTypeB th {
@@ -3953,12 +3937,12 @@ table.tableTypeC td {
 table.tableTypeC thead th {
   padding: 24px 0;
   font-size: 16px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeC tbody th {
   font-size: 20px;
   border-right: 1px dotted #b2b2b2;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
 }
 
 table.tableTypeD tr:first-child td {
@@ -3970,7 +3954,7 @@ table.tableTypeD tr td {
   border-top: 1px solid #b2b2b2;
 }
 table.tableTypeD tr td.marking {
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
   font-size: 20px;
   text-align: center;
   line-height: 1.2em;
@@ -4009,7 +3993,7 @@ table.tableTypeD tr td.marking span.marking3:after {
 }
 table.tableTypeD tr td.tit {
   font-size: 20px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   line-height: 1.4em;
   text-align: center;
 }
@@ -4020,7 +4004,7 @@ table.tableTypeD tr td.text strong {
   display: block;
   margin-bottom: 10px;
   font-size: 16px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeD tr td.text p {
   font-size: 16px;
@@ -4050,10 +4034,10 @@ table.tableTypeE thead th span {
   line-height: 1.4em;
 }
 table.tableTypeE thead th strong {
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeE thead th span {
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
 }
 table.tableTypeE tbody th,
 table.tableTypeE tbody td {
@@ -4062,7 +4046,7 @@ table.tableTypeE tbody td {
 }
 table.tableTypeE tbody th {
   padding: 18px 20px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
   font-size: 18px;
   text-align: left;
@@ -4070,7 +4054,7 @@ table.tableTypeE tbody th {
 }
 table.tableTypeE tbody td {
   padding: 18px 5px;
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
   font-size: 16px;
   text-align: center;
@@ -4084,7 +4068,7 @@ table.tableTypeE tfoot td {
 }
 table.tableTypeE tfoot th {
   padding: 18px 20px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
   font-size: 18px;
   text-align: left;
@@ -4092,7 +4076,7 @@ table.tableTypeE tfoot th {
 }
 table.tableTypeE tfoot td {
   padding: 18px 5px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.2em;
   font-size: 16px;
   text-align: center;
@@ -4223,7 +4207,7 @@ table.tableTypeE tfoot td {
 #error h2 {
   position: relative;
   font-size: 44px;
-  font-family: "Inter",sans-serif;
+  font-family: "Montserrat",sans-serif;
   line-height: 1em;
   padding-bottom: 30px;
   margin-bottom: 30px;
@@ -4240,7 +4224,7 @@ table.tableTypeE tfoot td {
 }
 #error p {
   font-size: 20px;
-  font-family: "LGSmHaL";
+  font-family: "Montserrat",sans-serif;
   line-height: 1em;
 }
 #error .btnArea {
@@ -4323,7 +4307,7 @@ table.tableTypeE tfoot td {
   padding-top: 24px;
   text-align: center;
   font-size: 16px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   line-height: 1.4em;
   color: #fff;
   box-sizing: border-box;
@@ -4343,7 +4327,7 @@ table.tableTypeE tfoot td {
   padding-top: 62px;
   text-align: center;
   font-size: 16px;
-  font-family: ""Inter",sans-serif";
+  font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.4em;
   color: #fff;

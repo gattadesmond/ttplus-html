@@ -92,30 +92,30 @@
     );
   });
 
-  $(window).scroll(function () {
-    $("#contentsArea>div").each(function (i) {
-      if (
-        $(window).scrollTop() >=
-          $("#contentsArea>div:eq(" + i + ")").offset().top - 68 &&
-        $(window).scrollTop() <=
-          $("#contentsArea>div:eq(" + i + ")").offset().top -
-            68 +
-            $("#contentsArea>div:eq(" + i + ")").height()
-      ) {
-        $(".quickButton li").removeClass("on");
-        $(".quickButton li:eq(" + i + ")").addClass("on");
-        //$('.quickButton').css('background',$('.contentsBox:eq('+ i +')').css('background'));
-      }
-    });
-    if ($(this).scrollTop() < $("#contentsArea>div:eq(0)").offset().top - 68) {
-      $(".quickButton li").removeClass("on");
-    }
-    if ($(this).scrollTop() > $("#contentsArea").offset().top - 79) {
-      $(".quickButton").addClass("quickFix");
-    } else {
-      $(".quickButton").removeClass("quickFix");
-    }
-  });
+//   $(window).scroll(function () {
+//     $("#contentsArea>div").each(function (i) {
+//       if (
+//         $(window).scrollTop() >=
+//           $("#contentsArea>div:eq(" + i + ")").offset().top - 68 &&
+//         $(window).scrollTop() <=
+//           $("#contentsArea>div:eq(" + i + ")").offset().top -
+//             68 +
+//             $("#contentsArea>div:eq(" + i + ")").height()
+//       ) {
+//         $(".quickButton li").removeClass("on");
+//         $(".quickButton li:eq(" + i + ")").addClass("on");
+//         //$('.quickButton').css('background',$('.contentsBox:eq('+ i +')').css('background'));
+//       }
+//     });
+//     if ($(this).scrollTop() < $("#contentsArea>div:eq(0)").offset().top - 68) {
+//       $(".quickButton li").removeClass("on");
+//     }
+//     if ($(this).scrollTop() > $("#contentsArea").offset().top - 79) {
+//       $(".quickButton").addClass("quickFix");
+//     } else {
+//       $(".quickButton").removeClass("quickFix");
+//     }
+//   });
 
   function videoPop(m) {
     uiUtil.layerOpen("/products/popup/video.jsp?m=" + m);
@@ -130,3 +130,153 @@
     /* $("#textArea_" + n1 + "_" + n2).show(); */
   }
 </script>
+
+<script>	
+	var nthSlide = 0;
+	$(function(){
+		$('.locationWrap li').last().after('<li class="backTopList"><a href="javascript:goBack();">Back to List</a></>');
+		if($('#inspirationCont').length == 0) $('.tabArea ul li').eq(2).remove();
+		if($('.informationArea .scrollArea ul li').length == 0) $('.informationArea').remove();
+		
+		$('.imgSlide').imagesLoaded( function() {
+			$('.imgSlide').slick({
+		  		infinite: false,
+		  		speed: 500,
+		  		slidesToShow: 1,
+		  		adaptiveHeight: false,
+		  		dots:false
+	  		},"easeOutQuint");
+		});
+		$('.relatedSlide').imagesLoaded( function() {
+			$('.relatedSlide').slick({
+		  		infinite: true,
+		  		speed: 500,
+		  		slidesToShow: 5,
+		  		dots:false
+	  		},"easeOutQuint");
+		});
+		if($('.informationArea .scrollArea ul').outerHeight() > 180){
+			$('.informationArea .scrollArea').addClass('overText');
+			$('.informationArea .scrollArea').after('<a href="javascript:;" class="overBtn"><span class="hide">more text</span></a>');
+		}
+		$('.overBtn').click(function(){
+			if(!$(this).hasClass('on')){
+				$(this).addClass('on');
+				$('.informationArea>.scrollArea').css('max-height','none');
+				$('.informationArea>.scrollArea').css('border-bottom','none');
+			}else{
+				$(this).removeClass('on');
+				$('.informationArea>.scrollArea').css('max-height','164px');
+				$('.informationArea>.scrollArea').css('border-bottom','1px solid #dedfe0');
+			}
+		});
+		var $url = window.location.search;
+		// if(checkRemovePage()){
+		// 	var _str = $('.informationArea .scrollArea ul li').eq(3).find('span').html()
+		// 	var replaceTxt = _str.replace('(228.6x1,778mm)*','')
+		// 	//console.log(_str)
+		// 	//console.log(replaceTxt)
+		// 	$('.informationArea .scrollArea ul li').eq(3).find('span').html(replaceTxt)
+		// }
+		// function checkRemovePage(){
+		// 	if($url.indexOf('pid=2091') != -1) return true;
+		// 	if($url.indexOf('pid=2092') != -1) return true;
+		// 	if($url.indexOf('pid=2093') != -1) return true;
+		// 	if($url.indexOf('pid=2094') != -1) return true;
+		// 	if($url.indexOf('pid=2095') != -1) return true;
+		// 	if($url.indexOf('pid=2096') != -1) return true;
+		// 	if($url.indexOf('pid=2097') != -1) return true;
+		// 	if($url.indexOf('pid=2098') != -1) return true;
+		// 	if($url.indexOf('pid=2099') != -1) return true;
+		// 	if($url.indexOf('pid=2103') != -1) return true;
+		// 	if($url.indexOf('pid=2104') != -1) return true;
+		// 	if($url.indexOf('pid=2105') != -1) return true;
+		// 	return false;
+		// }
+		$('.relatedSlide a').hover(function(){
+			$(this).parent().addClass('over');	
+		},function(){
+			$(this).parent().removeClass('over');
+		});
+		$('.tabArea ul li a').click(function(){
+			var hHeight = $('#header').outerHeight();
+			var tabHeight = $('.tabWrap ').outerHeight();
+			
+			if($(this).parent().hasClass('tabDiscription')){
+				$('html,body').stop().animate({
+					scrollTop:$('#discriptionCont').offset().top - hHeight - tabHeight + 1
+				},1200);	
+			}
+			if($(this).parent().hasClass('tabDownload')){
+				$('html,body').stop().animate({
+					scrollTop:$('#downloadCont').offset().top - hHeight - tabHeight + 1
+				},1200);	
+			}
+			if($(this).parent().hasClass('tabInspiration')){
+				$('html,body').stop().animate({
+					scrollTop:$('#inspirationCont').offset().top - hHeight - tabHeight + 1
+				},1200);	
+			}
+			if($(this).parent().hasClass('tabRelated')){
+				$('html,body').stop().animate({
+					scrollTop:$('#relatedCont').offset().top - hHeight - tabHeight + 1
+				},1200);	
+			}
+		});
+		// $('.imgSlide .linkBtn').click(function(){
+		// 	uiUtil.layerOpen('/products/popup/imgDetail.jsp');
+		// 	nthSlide = $(this).parent().index();
+		// });
+	});
+	$(window).scroll(function(){
+		var hHeight = $('#header').outerHeight();
+		var tabHeight = $('.tabArea ').outerHeight();
+		
+		if($(this).scrollTop() > $('.tabWrap').offset().top - $('#header').outerHeight()){
+			$('.tabArea').addClass('fixedEfc');
+			$('#header').addClass('notEfc');
+		}else if ($(this).scrollTop() < $('.tabWrap').offset().top - $('#header').outerHeight()){
+			$('.tabArea').removeClass('fixedEfc');
+			$('#header').removeClass('notEfc');
+		}
+		
+		if(!$('#discriptionCont').length == 0){
+			if($(this).scrollTop() > $('#discriptionCont').offset().top - hHeight - tabHeight && $(this).scrollTop() < $('#discriptionCont').offset().top + $('#discriptionCont').outerHeight() - hHeight - tabHeight){
+				$('.tabArea ul li').removeClass('on');
+				$('.tabArea ul li.tabDiscription').addClass('on');
+			}	
+		}
+		if(!$('#downloadCont').length == 0){
+			if($(this).scrollTop() > $('#downloadCont').offset().top - hHeight - tabHeight && $(this).scrollTop() < $('#downloadCont').offset().top + $('#downloadCont').outerHeight() - hHeight - tabHeight){
+				$('.tabArea ul li').removeClass('on');
+				$('.tabArea ul li.tabDownload').addClass('on');
+			}	
+		}
+		if(!$('#inspirationCont').length == 0){
+			if($(this).scrollTop() > $('#inspirationCont').offset().top - hHeight - tabHeight && $(this).scrollTop() < $('#inspirationCont').offset().top + $('#inspirationCont').outerHeight() - hHeight - tabHeight){
+				$('.tabArea ul li').removeClass('on');
+				$('.tabArea ul li.tabInspiration').addClass('on');
+			}
+		}	
+		if(!$('#relatedCont').length == 0){
+			if($(this).scrollTop() > $('#relatedCont').offset().top - hHeight - tabHeight && $(this).scrollTop() < $('#relatedCont').offset().top + $('#relatedCont').outerHeight() - hHeight - tabHeight){
+				$('.tabArea ul li').removeClass('on');
+				$('.tabArea ul li.tabRelated').addClass('on');
+			}
+		}
+	});
+	
+	function previewPop(pid) {
+		uiUtil.layerOpen('/products/popup/preview.jsp?cid=171&pid=' + pid);
+	}
+	function downloadImage(f) {
+		document.location.href = "download.jsp?pid=3143&field=" + f;
+	}
+	function estimatePop(){
+		uiUtil.layerOpen('/products/popup/estimate.jsp?cid=171&pid=3143',null,null,3);
+		
+	}
+	function videoPop(m){
+		uiUtil.layerOpen('/products/popup/video.jsp?m=' + m);
+	}
+	</script>

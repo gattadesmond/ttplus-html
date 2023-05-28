@@ -13,7 +13,7 @@
   --white-color:rgb(255,255,255);
   
   /* Body-color */
-  --body-color: rgb(85, 85, 85);
+  --body-color: rgba(0, 0, 0, 0.9);
   --body-color-2: #817E7E;
   /* Fonts */
   --heading:  'Montserrat', sans-serif;

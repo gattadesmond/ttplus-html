@@ -21,10 +21,6 @@ body {
 }
 
 a,
-a:active,
-a:hover,
-a:link,
-a:visited,
 abbr,
 acronym,
 address,
@@ -110,6 +106,10 @@ ul,
 var,
 video {
   line-height: 1.25em;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
 }
 
 .ourprod-view .item.show {
