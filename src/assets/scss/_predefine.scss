@@ -15,7 +15,6 @@ body{
 .headline h5,
 .headline h6 {
 	margin: 0;
-	font-weight: normal;
 	font-family: var(--heading);
 }
 .archx-home {
@@ -61,7 +60,6 @@ body{
 .headline-2 h5,
 .headline-2 h6 {
 	margin: 0;
-	font-weight: normal;
 	font-family: var(--heading-2);
 }
 .no-padding {
@@ -199,7 +197,6 @@ body{
 		}
 	}
 	h2 {
-		font-weight: 500;
 		padding: 20px 0 30px;
 		span {
 			font-weight: 700;
