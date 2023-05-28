@@ -20,6 +20,10 @@ body {
   }
 }
 
+.ratio>*{
+  object-fit: cover;
+}
+
 a,
 abbr,
 acronym,
