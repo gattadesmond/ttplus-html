@@ -1,0 +1,132 @@
+<script>
+  $(function () {
+    if ($(".productSites ul li").length == 0) $(".productSites").remove();
+
+    $("#contentsArea .mainBox").each(function (i) {
+      $(this).find("ul li").first().addClass("on");
+    });
+    $("#contentsArea>div").each(function (i) {
+      var quickTit = $("#contentsArea>div:eq(" + i + ")")
+        .find("h3")
+        .text();
+      $(".quickButton ul").append(
+        '<li><a href="javascript:;"><span>' + quickTit + "</span></a></li>"
+      );
+    });
+    /* $('.quickButton ul').find('li').css('width',($('.quickButton ul li').eq(0).outerWidth() + 10)+'px');
+			$('.quickButton ul li a').find('span').css('width',($('.quickButton ul li').eq(0).outerWidth() - 44)+'px'); */
+    $(".quickButton a").click(function () {
+      var btnIdx = $(this).parent().index();
+      $("html,body")
+        .stop()
+        .animate(
+          {
+            scrollTop:
+              $("#contentsArea>div:eq(" + btnIdx + ")").offset().top - 68,
+          },
+          1200,
+          "easeInOutExpo"
+        );
+    });
+    $(".characteristic li a").hover(
+      function () {
+        $(this).parent().addClass("hover");
+      },
+      function () {
+        $(this).parent().removeClass("hover");
+      }
+    );
+    $(".bannerSlide").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      arrows: true,
+      adaptiveHeight: true,
+      focusOnSelect: true,
+      dots: true,
+    });
+    if ($(".bannerSlide .slick-slide").length == 0) $(".idxBannder").hide();
+    $(".mainBox .textArea").hover(
+      function () {
+        $(this)
+          .parents(".contentsBoxWrap")
+          .find(".imgWrap .imgArea")
+          .eq($(this).index())
+          .addClass("hover");
+      },
+      function () {
+        $(this)
+          .parents(".contentsBoxWrap")
+          .find(".imgWrap .imgArea")
+          .eq($(this).index())
+          .removeClass("hover");
+      }
+    );
+    $(".imgWrap .imgArea").hover(
+      function () {
+        $(this).addClass("hover");
+        $(this)
+          .parents(".contentsBoxWrap")
+          .find(".mainBox .textArea")
+          .eq($(this).index())
+          .addClass("hover");
+      },
+      function () {
+        $(this).removeClass("hover");
+        $(this)
+          .parents(".contentsBoxWrap")
+          .find(".mainBox .textArea")
+          .eq($(this).index())
+          .removeClass("hover");
+      }
+    );
+    $(".mainBox .textArea").hover(
+      function () {
+        $(this).addClass("hover");
+      },
+      function () {
+        $(this).removeClass("hover");
+      }
+    );
+  });
+
+  $(window).scroll(function () {
+    $("#contentsArea>div").each(function (i) {
+      if (
+        $(window).scrollTop() >=
+          $("#contentsArea>div:eq(" + i + ")").offset().top - 68 &&
+        $(window).scrollTop() <=
+          $("#contentsArea>div:eq(" + i + ")").offset().top -
+            68 +
+            $("#contentsArea>div:eq(" + i + ")").height()
+      ) {
+        $(".quickButton li").removeClass("on");
+        $(".quickButton li:eq(" + i + ")").addClass("on");
+        //$('.quickButton').css('background',$('.contentsBox:eq('+ i +')').css('background'));
+      }
+    });
+    if ($(this).scrollTop() < $("#contentsArea>div:eq(0)").offset().top - 68) {
+      $(".quickButton li").removeClass("on");
+    }
+    if ($(this).scrollTop() > $("#contentsArea").offset().top - 79) {
+      $(".quickButton").addClass("quickFix");
+    } else {
+      $(".quickButton").removeClass("quickFix");
+    }
+  });
+
+  function videoPop(m) {
+    uiUtil.layerOpen("/products/popup/video.jsp?m=" + m);
+  }
+
+  function setCollection(n1, n2, obj) {
+    $(obj).parents(".contentsBoxWrap").find(".imgWrap>div").removeClass("on");
+    $(obj).parent().parent().find("li").removeClass("on");
+    $(obj).parent().addClass("on");
+    $("#imgArea_" + n1 + "_" + n2).addClass("on");
+    $(".mainBox .collection_" + n1).hide();
+    /* $("#textArea_" + n1 + "_" + n2).show(); */
+  }
+</script>
