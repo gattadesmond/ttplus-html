@@ -8973,10 +8973,10 @@ body.scrolltop #wapper.businessList #header.notEfc {
 
 @media only screen and (min-width: 1920px) {
   .bgArea span {
-    background-size: 100% auto;
+    background-size: cover;
   }
   .inspirationView .bgArea span {
-    background-size: 100% auto;
+    background-size: cover;
   }
 }
 
