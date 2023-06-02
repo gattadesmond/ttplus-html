@@ -331,8 +331,6 @@ h6 {
     padding: 10px 0;
     font-weight: bold;
   }
-
- 
 }
 .menu-box ul {
   padding-left: 0;
@@ -421,11 +419,29 @@ h6 {
   }
 }
 
-.arck-project-item:hover{
+.arck-project-item:hover {
   .btn2-anim {
     &:after {
       width: 100%;
       opacity: 0.8;
     }
+  }
+}
+
+.arck-project-item-overlay{
+ 
+  .inner-img {
+    &:after {
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1;
+      content: "";
+      height: 100%;
+      position: absolute;
+      transition: var(--transition);
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+   
   }
 }

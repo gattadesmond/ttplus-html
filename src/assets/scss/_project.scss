@@ -53,17 +53,7 @@
 	}
 	.inner-img {
 		overflow: hidden;
-		&:after{
-			top: 0;
-			left: 0;
-			width: 100%;
-			z-index: 1;
-			content: '';
-			height: 100%;
-			position: absolute;
-			transition: var(--transition);
-			background-color: rgba(0, 0, 0, .2);
-		}
+	
 		img {
 			transition: var(--transition);
 		}
