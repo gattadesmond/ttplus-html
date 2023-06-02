@@ -38,13 +38,14 @@
 .arck-project-item {
 	margin: 15px;
 	overflow: hidden;
+	
 	&:before {
 		top: 0;
 		left: 0;
 		opacity: 0;
 		width: 100%;
 		z-index: 1;
-		content: '';
+		content: '123213';
 		height: 100%;
 		position: absolute;
 		transition: var(--transition);
@@ -52,6 +53,17 @@
 	}
 	.inner-img {
 		overflow: hidden;
+		&:after{
+			top: 0;
+			left: 0;
+			width: 100%;
+			z-index: 1;
+			content: '';
+			height: 100%;
+			position: absolute;
+			transition: var(--transition);
+			background-color: rgba(0, 0, 0, .2);
+		}
 		img {
 			transition: var(--transition);
 		}

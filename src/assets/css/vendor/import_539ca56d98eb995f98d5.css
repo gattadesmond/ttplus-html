@@ -2419,7 +2419,7 @@ h4.tit-sub-02 {
   position: relative;
   display: block;
   padding-right: 41px;
-  background: url(https://img.lxhausys.com/public/images/arrw_right_04.png) right center no-repeat;
+  background: url(../img/arrw_right_04.png) right center no-repeat;
   font-size: 15px;
   font-weight: 500;
   line-height: 33px;
@@ -9342,7 +9342,7 @@ input[type=text]:disabled, input[type=date]:disabled, input[type=tel]:disabled, 
 .btn2-lmore span {
   display: block;
   padding: 0 30px 0 20px;
-  background: url(https://img.lxhausys.com/public/images/arrw_right_04.png) right center no-repeat;
+  background: url(../img/arrw_right_04.png) right center no-repeat;
   font-size: 15px;
   font-weight: 500;
   line-height: 33px;
@@ -17321,7 +17321,7 @@ header .logo a {
   display: inline-block;
   width: 20px;
   height: 36px;
-  background: url(https://img.lxhausys.com/public/images/arrw_right_04.png) center center no-repeat;
+  background: url(../img/arrw_right_04.png) center center no-repeat;
 }
 .gnb-section.gnb-allmenu {
   z-index: 810;
@@ -20559,7 +20559,7 @@ footer .mo-view .drop-list li .m-footer-arr::after {
   right: 1.25rem;
   top: 50%;
   transform: translate(0, -50%);
-  background: url(https://img.lxhausys.com/public/images/arrw_right_04.png) no-repeat center/100%;
+  background: url(../img/arrw_right_04.png) no-repeat center/100%;
 }
 footer .mo-view .mo-warp p.tit {
   font-size: 0.8333333333rem;
@@ -21217,7 +21217,7 @@ a.btn2 span,
   line-height: 1.7647058824rem;
   font-size: 0.9411764706rem;
   white-space: nowrap;
-  background: url(https://img.lxhausys.com/public/images/arrw_right_04.png) right center no-repeat;
+  background: url(../img/arrw_right_04.png) right center no-repeat;
   color: #fff;
 }
 @media (max-width: 768px) {

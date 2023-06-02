@@ -20,7 +20,7 @@ body {
   }
 }
 
-.ratio>*{
+.ratio > * {
   object-fit: cover;
 }
 
@@ -111,7 +111,12 @@ video {
   line-height: 1.25em;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
@@ -286,8 +291,6 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-
-
 .text-black {
   color: rgba(0, 0, 0, 0.9);
 }
@@ -308,18 +311,19 @@ h1,h2,h3,h4,h5,h6{
     top: 0;
     left: 0;
     display: flex;
+    z-index: 2;
     padding: 20px;
     align-items: flex-end;
     justify-content: center;
-    span{
-      display: inline-block;
-      text-align: center;
-      background-color: var(--main-color);
-      color: white;
-      padding: 2px 20px;
-      font-size: 13px;
-      border-radius: 20px;
-    }
+    // span{
+    //   display: inline-block;
+    //   text-align: center;
+    //   background-color: var(--main-color);
+    //   color: white;
+    //   padding: 2px 20px;
+    //   font-size: 13px;
+    //   border-radius: 20px;
+    // }
   }
 
   .name {
@@ -327,46 +331,101 @@ h1,h2,h3,h4,h5,h6{
     padding: 10px 0;
     font-weight: bold;
   }
+
+ 
 }
-.menu-box ul{
+.menu-box ul {
   padding-left: 0;
 }
-.menu-box ul li{
+.menu-box ul li {
   text-align: left;
 }
 
-.gioithieu-bg-logo{
+.gioithieu-bg-logo {
   opacity: 0.1;
   z-index: -1;
   filter: grayscale(100%);
 }
 
-.businessList .bgArea{
+.businessList .bgArea {
   height: 300px;
 }
 
-
-
-.project-link-over{
+.project-link-over {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
-  right:0;
-  bottom:0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   font-size: 20px;
   font-weight: bold;
   padding: 20px;
   text-align: center;
-  &:hover, &:focus, &:active{color: white}
+  &:hover,
+  &:focus,
+  &:active {
+    color: white;
+  }
 }
 
-.recent-blog-img{
+.recent-blog-img {
   flex-shrink: 0;
+}
+
+.btn2-anim {
+  position: relative;
+  width: auto;
+  padding: 0 19px;
+  transition: all 0.5s ease-out 1.8s;
+
+  height: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 44px;
+    height: 100%;
+    border-radius: 30px;
+    background: #000;
+    opacity: 0.2;
+    transition: all 0.45s ease-in-out 0s;
+  }
+  &:hover::after {
+    width: 100%;
+    opacity: 0.8;
+  }
+  span {
+    font-weight: bold;
+    position: relative;
+    display: block;
+    padding-right: 41px;
+    background: url(../img/arrw_right_04.png) right center no-repeat;
+    font-size: 15px;
+    line-height: 33px;
+    color: #fff;
+    z-index: 100;
+    white-space: nowrap;
+  }
+}
+
+.arck-project-item:hover{
+  .btn2-anim {
+    &:after {
+      width: 100%;
+      opacity: 0.8;
+    }
+  }
 }
