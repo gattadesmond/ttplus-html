@@ -21,6 +21,7 @@
 }
 %blog_meta_style {
 	margin-bottom: 25px;
+	font-size: 14px;
 	a {
 		margin-right: 15px;
 		&:last-child {
@@ -287,13 +288,11 @@
 	}
 }
 .arck-blog-details-main-content {
-	background-color: #fff;
-	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
 	.blog-meta {
 		@extend%blog_meta_style;
 	}
 	.arck-blog-details-text-wrap {
-		padding: 50px 40px 20px;
+		// padding: 50px 40px 20px;
 		h2,h3 {
 			color: var(--black-color);
 			font-size: 30px;
@@ -307,6 +306,12 @@
 		p {
 			padding-bottom: 30px;
 		}
+		a.link{
+			color: #1155cc;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+		
 		blockquote {
 			font-size: 20px;
 			line-height: 1.7;
@@ -332,7 +337,7 @@
 	}
 	.arck-blog-share-tag {
 		border-top: 1px solid #ebebeb;
-		padding: 20px 40px 30px;
+		padding: 20px 0px 30px;
 		.blog-share {
 			span {
 				color: var(--black-color);
