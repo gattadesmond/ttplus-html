@@ -504,4 +504,58 @@ h6 {
   }
 }
 
+.ttn-nav {
+  display: flex;
+  justify-content: space-between;
+  .ttn-item {
+    flex : 0 0 48%;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .ttn-nav {
+    display: block;
+    justify-content: space-between;
+  }
+  .ttn-item {
+    flex : 0 0 100%;
+    padding: 10px 0;
+  }
+}
+
+
+.ttn-item {
+  display: flex;
+  align-items: center;
+  &:hover {
+    .ttn-title {
+      text-decoration: underline;
+    }
+  }
+  &.right {
+    .ttn-content {
+      padding-right: 15px;
+      text-align: right;
+    }
+  }
+}
+
+.ttn-img {
+  width: 100px;
+  border-radius: 5px;
+}
+
+.ttn-content {
+  flex: 1 1 0px;
+  padding-left: 15px;
+}
+
+.ttn-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tnt-sub {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
