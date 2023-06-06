@@ -508,7 +508,7 @@ h6 {
   display: flex;
   justify-content: space-between;
   .ttn-item {
-    flex : 0 0 48%;
+    flex: 0 0 48%;
   }
 }
 
@@ -518,11 +518,14 @@ h6 {
     justify-content: space-between;
   }
   .ttn-item {
-    flex : 0 0 100%;
+    flex: 0 0 100%;
     padding: 10px 0;
   }
 }
 
+.blank-space {
+  height: 180px;
+}
 
 .ttn-item {
   display: flex;
@@ -558,4 +561,26 @@ h6 {
 .tnt-sub {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
+}
+
+.ttn-recom {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.tnt-blog-item {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+  display: block;
+  &:hover {
+    .tnt-blog-content {
+      text-decoration: underline;
+    }
+  }
+}
+
+.tnt-blog-content {
+  padding: 13px 15px;
+  font-weight: 600;
 }
