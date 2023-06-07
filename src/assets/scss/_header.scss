@@ -32,7 +32,7 @@
 		top: 50px;
 		z-index: 100;
 		margin: 0px;
-		padding: 20px 0;
+		padding: 10px 0;
 		height: auto;
 		min-width: 300px;
 		display: block;
@@ -83,7 +83,7 @@
 			width: 100%;
 			display: block;
 			position: relative;
-			padding: 10px 30px !important;
+			padding: 10px 20px !important;
 			color:  #1a2428 !important;
 			font-weight: 600 !important;
 			font-size: 14px !important;
@@ -306,11 +306,11 @@
 }
 .mobile_menu_button {
 	right: 15px;
-	top: 20px;
+	top: 16px;
 	z-index: 5;
 	color: #fff;
 	display: none;
-	font-size: 24px;
+	font-size: 26px;
 	cursor: pointer;
 	line-height: 38px;
 	position: absolute;
@@ -369,8 +369,16 @@
 		cursor: pointer;
 		top: 25px;
 		right: 25px;
-		font-size: 20px;
+		font-size: 26px;
 		position: absolute;
+		*:after{
+			content: "";
+			width: 60px;
+			height: 60px;
+			position: absolute;
+			left: -10px;
+			bottom: -10px;
+		}
 	}
 }
 /*// off canvas style*/

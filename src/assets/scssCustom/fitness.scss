@@ -218,13 +218,16 @@ h6 {
 }
 
 .header-cta-btn {
-  padding: 8px 15px;
+  
   cursor: pointer;
   &:hover {
     color: white;
   }
   .dropdown-toggle {
     color: white;
+  }
+  > * {
+    padding: 8px 15px;
   }
 }
 
@@ -583,4 +586,14 @@ h6 {
 .tnt-blog-content {
   padding: 13px 15px;
   font-weight: 600;
+}
+
+.arck-header-section .dropdown-menu .dropdown-item.active{
+  background-color: var(--main-color);
+    color: white !important;
+}
+
+.arck-header-section  .dropdown-language .dropdown-menu{
+  min-width: 200px;
+  top: 42px;
 }
