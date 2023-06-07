@@ -22,6 +22,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/main_92cc44fd6880b7f39143.css" />
   <link href="./assets/css/chunk-common.21a8a349.css" rel="stylesheet" />
   <link href="./assets/css/index.ae8bfddd.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/products_38cbeed462dec65b38e8.css" />
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./assets/css/fontawesome-all.css" />
   <link rel="stylesheet" href="./assets/css/animate.css" />
@@ -762,12 +763,12 @@
       // dots: true,
       autoplay: true,
       autoplaySpeed: 6000,
-      swipeToSlide: true,
+      // swipeToSlide: true,
     });
     $(".drag-products").slick({
       slidesToShow: 4,
       slidesToScroll: 4,
-      swipeToSlide: true,
+      // swipeToSlide: true,
       infinite: false,
       touchThreshold: 10,
       variableWidth: true,
@@ -788,10 +789,44 @@
         // instead of a settings object
       ],
     });
+    $(".slider-prod-2").slick({
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      // swipeToSlide: true,
+      infinite: false,
+      touchThreshold: 10,
+      dots: false,
+      // prevArrow: false,
+      // nextArrow: false,
+      responsive: [{
+        breakpoint: 993,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      }, ],
+    });
+    $(".slider-collection").slick({
+      slidesToShow: 11,
+      slidesToScroll: 11,
+      // swipeToSlide: true,
+      infinite: false,
+      touchThreshold: 10,
+      dots: true,
+      prevArrow: false,
+      nextArrow: false,
+      responsive: [{
+        breakpoint: 993,
+        settings: {
+          slidesToShow: 8,
+          slidesToScroll: 8,
+        },
+      }, ],
+    });
     $(".drag_segments").slick({
       slidesToShow: 4,
       slidesToScroll: 4,
-      swipeToSlide: true,
+      // swipeToSlide: true,
       infinite: false,
       touchThreshold: 10,
       variableWidth: true,
@@ -799,18 +834,14 @@
       prevArrow: false,
       nextArrow: false,
       responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            centerMode: true,
-            infinite: true,
-          },
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: true,
+          infinite: true,
         },
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
-      ],
+      }, ],
     });
     $(".ourprod-content .visual-item").hover(function(index) {
       $(".ourprod-view .item").eq($(this).index()).addClass("show");

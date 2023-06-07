@@ -1092,10 +1092,10 @@ readers do not read off random characters that represent icons */
 .fa-cactus:before {
   content: "\f8a7"; }
 
-.fa-calculator:before {
+.fa-calcuMontserratr:before {
   content: "\f1ec"; }
 
-.fa-calculator-alt:before {
+.fa-calcuMontserratr-alt:before {
   content: "\f64c"; }
 
 .fa-calendar:before {
@@ -6888,7 +6888,7 @@ readers do not read off random characters that represent icons */
 .fa-watch:before {
   content: "\f2e1"; }
 
-.fa-watch-calculator:before {
+.fa-watch-calcuMontserratr:before {
   content: "\f8f0"; }
 
 .fa-watch-fitness:before {
@@ -7949,10 +7949,10 @@ readers do not read off random characters that represent icons */
 .fad.fa-cactus:after {
   content: "\10f8a7"; }
 
-.fad.fa-calculator:after {
+.fad.fa-calcuMontserratr:after {
   content: "\10f1ec"; }
 
-.fad.fa-calculator-alt:after {
+.fad.fa-calcuMontserratr-alt:after {
   content: "\10f64c"; }
 
 .fad.fa-calendar:after {
@@ -12626,7 +12626,7 @@ readers do not read off random characters that represent icons */
 .fad.fa-watch:after {
   content: "\10f2e1"; }
 
-.fad.fa-watch-calculator:after {
+.fad.fa-watch-calcuMontserratr:after {
   content: "\10f8f0"; }
 
 .fad.fa-watch-fitness:after {
