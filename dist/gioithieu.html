@@ -578,6 +578,13 @@
       $(".drag_segments").slick("slickFilter", "." + tabId);
     }
     $(document).on("click", ".btn3-filter", tabMenu2);
+
+    function tabMenu3() {
+      var tabId = $(this).attr("data-tab");
+      $(this).addClass("on").siblings("li").removeClass("on");
+      $("." + tabId).addClass("on").siblings("div").removeClass("on");
+    }
+    $(document).on("click", ".btn4-filter", tabMenu3);
     $(window).scroll(function() {
       if ($(this).scrollTop() >= 200) {
         $(".scr-hder").addClass("on");

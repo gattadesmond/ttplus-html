@@ -625,10 +625,10 @@
         <div class="cate-tab-box tab-ui" style="display: block">
           <div class="tab-ui tab-ui-dark">
             <ul>
-              <li data-tab="fb-box" class="btn-tab on">
+              <li data-tab="fb-box" class="btn-tab on btn4-filter">
                 <button type="button">FEATURE &amp; BENEFITS</button>
               </li>
-              <li data-tab="cer-box" class="btn-tab">
+              <li data-tab="cer-box" class="btn-tab btn4-filter">
                 <button type="button">Applications</button>
               </li>
             </ul>
@@ -709,22 +709,22 @@
             <div class="bd-gray _6items_box">
               <ul>
                 <li>
-                  <img src="images/products/Deco-Kitchen.png" alt="Deco-Kitchen" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-Kitchen.png" alt="Deco-Kitchen" />
                 </li>
                 <li>
-                  <img src="images/products/Deco-Furniture.png" alt="Deco-Furniture" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-Furniture.png" alt="Deco-Furniture" />
                 </li>
                 <li>
-                  <img src="images/products/Deco-Door.png" alt="Deco-Door" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-Door.png" alt="Deco-Door" />
                 </li>
                 <li>
-                  <img src="images/products/Deco-Window.png" alt="Deco-Window" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-Window.png" alt="Deco-Window" />
                 </li>
                 <li>
-                  <img src="images/products/Deco-Molding.png" alt="Deco-Molding" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-Molding.png" alt="Deco-Molding" />
                 </li>
                 <li>
-                  <img src="images/products/Deco-ArtWall.png" alt="Deco-ArtWall" />
+                  <img src="https://www.lxhausys.com/gl/images/products/Deco-ArtWall.png" alt="Deco-ArtWall" />
                 </li>
               </ul>
             </div>
@@ -964,6 +964,13 @@
       $(".drag_segments").slick("slickFilter", "." + tabId);
     }
     $(document).on("click", ".btn3-filter", tabMenu2);
+
+    function tabMenu3() {
+      var tabId = $(this).attr("data-tab");
+      $(this).addClass("on").siblings("li").removeClass("on");
+      $("." + tabId).addClass("on").siblings("div").removeClass("on");
+    }
+    $(document).on("click", ".btn4-filter", tabMenu3);
     $(window).scroll(function() {
       if ($(this).scrollTop() >= 200) {
         $(".scr-hder").addClass("on");
