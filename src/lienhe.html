@@ -16,87 +16,326 @@
         <div
           class="arck-breadcrumb-content position-relative text-center headline-2 ul-li"
         >
-          <h1 class="text-white">Coming soon</h1>
+          <h1 class="text-white">Liên hệ</h1>
+          <div class="row justify-content-center">
+            <div class="col-xl-6">
+              <p class="text-white lh-base">
+                Let’s talk about your next project. Please fill out the form
+                below and we will contact you promptly. Your reply will be sent
+                to the email address that you submit.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    @@include('home/_gioithieu.html')
 
     <section id="" class="ttplus-section">
-      <div class="container sub">
-        <div class="row">
-          <div class="col-lg-6">
-            <img
-              src="https://ttplus.com.vn/wp-content/uploads/2022/08/tt.png"
-              alt=""
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="arck-about-text-wrap-2">
-              <div class="arck-section-title headline pera-content ul-li-block">
-                <h3 class="fw-bold text-black">TẦM NHÌN - SỨ MỆNH - GIÁ TRỊ</h3>
-                <ul class="lh-lg">
-                  <li class="mt-4">
-                    . Công ty TNHH TM <strong> T&T Plus</strong> trở thành công
-                    ty cung cấp nguyên vật liệu và thi công nội thất uy tín hàng
-                    đầu Việt Nam. Tạo dựng thương hiệu Việt cho người Việt.
+      <form action="#none">
+        <div class="container sub">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="tbl-01">
+                    <h2 class="tt-2 mb-40" style="display: none">
+                      Submit Form
+                    </h2>
+                    <div class="tbl-input">
+                      <table>
+                        <caption>
+                          Contact us For Professionals form
+                        </caption>
+                        <colgroup>
+                          <col style="width: 160px" />
+                          <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                          <tr>
+                            <th scope="row">
+                              <span class="must">Product Category</span>
+                            </th>
+                            <td class="cell-noti">
+                              <div class="sel-box type02">
+                                <button type="button" class="btn-sel">
+                                  <span class="placeholder">Select</span>
+                                </button>
+                                <div class="sel-list" style="display: none">
+                                  <ul class="box">
+                                    <li>
+                                      <button type="button">HFLOR</button>
+                                    </li>
+                                    <li>
+                                      <button type="button">HIMACS</button>
+                                    </li>
+                                    <li>
+                                      <button type="button">VIATERA</button>
+                                    </li>
+                                    <li>
+                                      <button type="button">BENIF</button>
+                                    </li>
+                                    <li>
+                                      <button type="button">Deco Foil</button>
+                                    </li>
+                                    <li>
+                                      <button type="button">VIZUON</button>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <span class="must">Type of inquiry</span>
+                            </th>
+                            <td class="cell-noti">
+                              <div class="sel-box type02">
+                                <button type="button" class="btn-sel">
+                                  <span class="placeholder">Select</span>
+                                </button>
+                                <div class="sel-list">
+                                  <ul class="box"></ul>
+                                </div>
+                              </div>
+                              <!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <label for="inp01" class="must">First Name</label>
+                            </th>
+                            <td class="cell-noti">
+                              <input
+                                type="text"
+                                id="inp01"
+                                placeholder="Input Text"
+                                class="inp-text"
+                              /><!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <label for="inp02" class="must">Last Name</label>
+                            </th>
+                            <td class="cell-noti">
+                              <input
+                                type="text"
+                                id="inp02"
+                                placeholder="Input Text"
+                                class="inp-text"
+                              /><!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <label for="inp03" class="must">Email</label>
+                            </th>
+                            <td class="cell-noti">
+                              <input
+                                type="text"
+                                id="inp03"
+                                placeholder="Input Text"
+                                class="inp-text"
+                              /><!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <label for="inp04" class="must">Phone</label>
+                            </th>
+                            <td class="cell-noti">
+                              <input
+                                type="text"
+                                id="inp04"
+                                placeholder="Input Text"
+                                oninput="this.value = this.value.replace(/[^0-9-.]/g, '').replace(/(\..*)\./g, '$1');"
+                                class="inp-text"
+                              /><!---->
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="tbl-02 glSite">
+                    <p class="noti ta-r noti-abs" style="display: none">
+                      This is a required field
+                    </p>
+                    <div class="tbl-input type03 mob-bt-0">
+                      <table>
+                        <caption>
+                          Contact us For Professionals form
+                        </caption>
+                        <colgroup>
+                          <col style="width: 150px" />
+                          <col style="width: auto" />
+                        </colgroup>
+                        <tbody>
+                          <tr>
+                            <th scope="row"><span class="must">Area</span></th>
+                            <td class="cell-noti">
+                              <div class="sel-box type02">
+                                <button type="button" class="btn-sel">
+                                  <span class="placeholder">Select</span>
+                                </button>
+                                <div class="sel-list" style="display: none">
+                                  <ul class="box"></ul>
+                                </div>
+                              </div>
+                              <!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <span class="must">Country</span>
+                            </th>
+                            <td class="cell-noti">
+                              <div class="sel-box type02">
+                                <button type="button" class="btn-sel">
+                                  <span class="placeholder">Select</span>
+                                </button>
+                                <div class="sel-list" style="display: none">
+                                  <ul class="box">
+                                    <li><button type="button"></button></li>
+                                    <li><button type="button"></button></li>
+                                    <li><button type="button"></button></li>
+                                    <li><button type="button"></button></li>
+                                    <li><button type="button"></button></li>
+                                    <li><button type="button"></button></li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <span class="must">Occupation</span>
+                            </th>
+                            <td class="cell-noti">
+                              <div class="sel-box type02">
+                                <button type="button" class="btn-sel">
+                                  <span class="placeholder">Select</span>
+                                </button>
+                                <div class="sel-list">
+                                  <ul class="box"></ul>
+                                </div>
+                              </div>
+                              <!---->
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">
+                              <label for="inp06">Company</label>
+                            </th>
+                            <td>
+                              <input
+                                type="text"
+                                id="inp06"
+                                placeholder="Input Text"
+                                class="inp-text"
+                              />
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="ta-box">
+                    <textarea placeholder="Comment" maxlength="1000"></textarea>
+                  </div>
+                  <label class="inp-chk"
+                    ><input type="checkbox" id="checkSubmit" /><span
+                      >By providing your details and clicking
+                      <span class="fc-red">Submit</span>, you acknowledge and
+                      agree to our website
+                      <a href="javascript:void(0);">Privacy Policy</a> and
+                      <a href="javascript:void(0);">Terms of Use</a>.
+                      <span class="fc-red">*</span></span
+                    ></label
+                  ><!---->
+                  <div class="more-box ta-c">
+                    <button type="button" class="btn">
+                      <span>Submit</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4">
+              <div class="find-btns">
+                <div class="heading-5">Find what you Need</div>
+                <ul>
+                  <li>
+                    <a href="support/where-to-buy/country/am"
+                      ><img
+                        width="48"
+                        height="58"
+                        src="images/svg_icon/icon_quick_where.svg"
+                      /><span>Where to buy</span></a
+                    >
                   </li>
-                  <li class="mt-4">
-                    . Phục vụ khách hàng với 2T: <strong>Tín – Tâm</strong>
+                  <li>
+                    <a href="support/faq/all"
+                      ><img
+                        width="57"
+                        height="55"
+                        src="images/svg_icon/icon_quick_faq.svg"
+                      /><span>FAQ</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="pros/documentation/all-products"
+                      ><img
+                        width="48"
+                        height="58"
+                        src="images/svg_icon/icon_quick_document.svg"
+                      /><span>Documentation</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="support/care-and-maintenance/hflor"
+                      ><img
+                        width="53"
+                        height="59"
+                        src="images/svg_icon/icon_quick_care.svg"
+                      /><span>Care &amp; Maintenance</span></a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="pros/documentation/all-products/fabrication/installation-guide"
+                      ><img
+                        width="52"
+                        height="53"
+                        src="images/svg_icon/icon_quick_install.svg"
+                      /><span>Fabrication &amp; Installation Guide</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="support/sales-representative/global/hflor"
+                      ><img
+                        width="53"
+                        height="50"
+                        src="images/svg_icon/icon_quick_sales.svg"
+                      /><span>Find a Sales Representative</span></a
+                    >
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </section>
-    <section id="" class="ttplus-section">
-      <div class="container sub">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="arck-about-text-wrap-2">
-              <div class="arck-section-title headline pera-content ul-li-block">
-                <h3 class="fw-bold text-black">CAM KẾT VỚI KHÁCH HÀNG</h3>
-                <p class="mt-4 lh-lg mb-4">
-                  Tất cả sản phẩm về nguyên vật liệu phụ vụ ngành nội thất, đến
-                  sản phẩm thành phẩm đều được <strong> T&T Plus</strong> chọn
-                  lọc rất kỹ về chất lượng, thương hiệu uy tín, và tất cả sản
-                  phẩm của <strong>T&T Plus</strong> đều thân thiện môi trường,
-                  để có thể bảo vệ sức khỏe người tiêu dùng. Nghiên cứu, thiết
-                  kế và đầu tư xây dựng hệ thống sản phẩm, dịch vụ với chất
-                  lượng tốt nhất, đáp ứng tối đa nhu cầu và mang lại sự hài lòng
-                  cho khách hàng. Luôn bảo vệ quyền lợi khách hàng.
-                </p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6">
-            <div class="arck-testimonial-slider">
-              <div>
-                <img
-                  src="https://ttplus.com.vn/wp-content/uploads/2021/06/z2530773771903_9534a6e991928d9e89cc7d761350006e.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  src=" https://ttplus.com.vn/wp-content/uploads/2021/06/z2530773767607_5ca9a42d74fef3c52f239ba7eddda68f.jpg"
-                  alt=""
-                />
-              </div>
-              <div>
-                <img
-                  src="https://ttplus.com.vn/wp-content/uploads/2021/06/z2530773769285_c355db782b067b678075f94d18797ff5.jpg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     @@include('_footer.html') @@include('_page-progress.html')
     @@include('_scripts.html')
   </body>
