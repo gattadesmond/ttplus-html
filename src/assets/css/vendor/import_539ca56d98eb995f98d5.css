@@ -333,13 +333,13 @@
 .tbl-input td {
   border-bottom: 1px solid #a0a0a0;
 }
-.tbl-input input {
+.tbl-input input, .tbl-input select {
   height: 50px;
   padding: 0 20px 0 10px;
   font-size: 15px;
 }
 @media (max-width: 768px) {
-  .tbl-input input {
+  .tbl-input input, .tbl-input select {
     height: 2.0833333333rem;
     font-size: 0.75rem;
   }
@@ -470,16 +470,16 @@
     font-size: 0.6875rem;
   }
 }
-.tbl-input.type03 {
+/* .tbl-input.type03 {
   border-color: #a0a0a0;
-}
+} */
 .tbl-input.tabLine {
   border-top: 2px solid #2c2c2d;
 }
 
-.noti + .tbl-input {
+/* .noti + .tbl-input {
   margin-top: 5px;
-}
+} */
 
 /* drop list */
 .drop-list .cont {

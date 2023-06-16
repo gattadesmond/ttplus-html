@@ -4761,7 +4761,8 @@
   color: #fff;
 
   line-height: inherit;
-  background: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20 8L12 16L4 8' stroke='white' stroke-width='1.5' stroke-miterlimit='10'/></svg>") 100% 25% no-repeat;
+  background: url(../img/arrw_right_04.png) right center no-repeat;
+  /* background: url("data:image/svg+xml; utf8, <svg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M20 8L12 16L4 8' stroke='white' stroke-width='1.5' stroke-miterlimit='10'/></svg>") 100% 25% no-repeat; */
 }
 
 @media (max-width: 1440px) {
