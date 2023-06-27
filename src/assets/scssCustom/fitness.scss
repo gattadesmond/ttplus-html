@@ -179,6 +179,23 @@ h6 {
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 767px) {
+  // .ttplus-section {
+  //   padding: 30px 0;
+  // }
+  .tit-main  + .h4{
+    font-size: 16px;
+  }
+}
+
+.slick-prev:before, .slick-next:before{
+  content: ""
+}
+
+ul{
+  padding-left: 0;
+}
+
 .arck-project-filter-btn .button-group {
   margin-bottom: 20px;
   display: flex;

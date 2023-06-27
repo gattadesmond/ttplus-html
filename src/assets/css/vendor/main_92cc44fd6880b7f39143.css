@@ -9,11 +9,11 @@
   }
 }
 
-.main .container2 .main-box .tit-main {
+.main .container2  .tit-main {
   margin-bottom: 33px;
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     margin-bottom: 2.0833333333rem;
   }
 }
@@ -57,7 +57,7 @@
     width: 7.625rem;
     height: 1.1875rem;
   }
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-family: 'Montserrat', sans-serif;;
     font-size: 38px;
     font-weight: 900;
@@ -65,79 +65,79 @@
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px) and (max-width: 1440px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px) and (max-width: 1440px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) and (max-width: 1440px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 27px;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px) and (max-width: 768px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px) and (max-width: 768px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) and (max-width: 768px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 1.2916666667rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box ul.slick-slider, .main .container2 .main-box .insplist-wrap ul {
+  .main .container2  ul.slick-slider, .main .container2  .insplist-wrap ul {
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .p-ui .slick-arrow, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-arrow {
+  .main .container2  .p-ui .slick-arrow, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-arrow {
     width: 0.75rem;
     height: 1.3125rem;
     opacity: 0.5;
   }
-  .main .container2 .main-box .p-ui .slick-prev, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-prev {
+  .main .container2  .p-ui .slick-prev, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-prev {
     left: 0.6875rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(255,255,255,1)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box .p-ui .slick-next, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-next {
+  .main .container2  .p-ui .slick-next, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-next {
     right: 0.6875rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='white' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box:first-child .p-ui {
+  .main .container2 :first-child .p-ui {
     display: block;
     height: 41.5625rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .slider-prod .txt-box {
+  .main .container2  .slider-prod .txt-box {
     top: 50%;
     height: 19.0625rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .bannerRect {
+  .main .container2  .slider-prod .txt-box .bannerRect {
     width: 16.625rem;
     height: 4.9375rem;
     margin-bottom: 0;
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-bottom: none;
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(6), .main .container2 .main-box .slider-prod .txt-box hr:nth-child(3) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(6), .main .container2  .slider-prod .txt-box hr:nth-child(3) {
     width: 16.625rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(3) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(3) {
     margin: 1rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(6) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(6) {
     margin: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box a {
+  .main .container2  .slider-prod .txt-box a {
     width: 8.1875rem;
     height: 2.25rem;
     min-height: 2.25rem;
     margin: 1.75rem 0 3.125rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more {
+  .main .container2  .slider-prod .txt-box .btn2-more {
     padding: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more span {
+  .main .container2  .slider-prod .txt-box .btn2-more span {
     font-size: 0.7708333333rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more:after {
+  .main .container2  .slider-prod .txt-box .btn2-more:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -149,59 +149,59 @@
     opacity: 0.2;
     transition: all 0.45s ease-in-out 0s;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more:hover::after {
+  .main .container2  .slider-prod .txt-box .btn2-more:hover::after {
     width: 100%;
     opacity: 0.8;
   }
-  .main .container2 .main-box .slider-prod .slick-list,
-  .main .container2 .main-box .slider-prod .slick-slide {
+  .main .container2  .slider-prod .slick-list,
+  .main .container2  .slider-prod .slick-slide {
     height: 100%;
   }
-  .main .container2 .main-box .slider-prod img {
+  .main .container2  .slider-prod img {
     min-height: 41.5625rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box p.txt-01 {
+  .main .container2  .slider-prod .txt-box p.txt-01 {
     width: 17.5rem;
     font-size: 1.75rem;
     line-height: normal;
     text-align: center;
   }
-  .main .container2 .main-box .slider-prod .txt-box p.txt-02 {
+  .main .container2  .slider-prod .txt-box p.txt-02 {
     font-size: 0.875rem;
     line-height: 1.125rem;
     margin: 0;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box.ourprod-box {
+  .main .container2 .ourprod-box {
     margin-top: 6.75rem;
     display: flex;
     flex-flow: column;
   }
-  .main .container2 .main-box.ourprod-box > p {
+  .main .container2 .ourprod-box > p {
     margin: 0 0 3.125rem 0;
     width: 86%;
     font-size: 0.78125rem;
     line-height: 1.21875rem;
     align-self: center;
   }
-  .main .container2 .main-box.ourprod-box > p > br {
+  .main .container2 .ourprod-box > p > br {
     display: inline-block;
     content: " ";
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui {
     margin-top: 0;
     overflow: hidden;
     max-height: 30.125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item {
     display: flex;
     flex-flow: column;
     justify-content: center;
     padding-left: 2.25rem;
     height: 28.9583333333rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .title {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .title {
     font-weight: bold;
     font-size: 1.34375rem;
     letter-spacing: 0.01375rem;
@@ -209,164 +209,164 @@
     margin-top: 1.1458333333rem;
     margin-bottom: 1.6875rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:first-child {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:first-child {
     position: relative;
     left: -0.625rem;
     width: 8.6875rem;
     height: 1.5625rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:nth-child(3) {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:nth-child(3) {
     width: 2.3125rem;
     height: 2.3125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
     position: relative;
     margin-top: auto;
     margin-bottom: 2.8125rem;
     width: 2.875rem;
     height: 1.1875rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item.stm03 svg:first-child {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item.stm03 svg:first-child {
     left: 0;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box.ftrd-prod-box .tab-ui, .main .container2 .main-box.seg-box .tab-ui {
+  .main .container2 .ftrd-prod-box .tab-ui, .main .container2 .seg-box .tab-ui {
     margin-bottom: 0;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box.insp-box {
+  .main .container2 .insp-box {
     margin-top: 8.75rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui {
+  .main .container2 .insp-box .tab-ui {
     margin-bottom: 0;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-slider {
+  .main .container2 .insp-box .tab-ui .slick-slider {
     display: flex;
     justify-content: center;
     padding: 0;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-list {
+  .main .container2 .insp-box .tab-ui .slick-list {
     width: 17rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-slide {
+  .main .container2 .insp-box .tab-ui .slick-slide {
     height: fit-content;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-arrow {
+  .main .container2 .insp-box .tab-ui .slick-arrow {
     padding: 0;
     width: 0.75rem;
     height: 1.3125rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-prev {
+  .main .container2 .insp-box .tab-ui .slick-prev {
     left: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-next {
+  .main .container2 .insp-box .tab-ui .slick-next {
     right: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
+  .main .container2 .insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
     left: 1.5625rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-next {
+  .main .container2 .insp-box .tab-ui .btn2s.type-main > ul .slick-next {
     right: 1.5625rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap {
+  .main .container2  .insplist-wrap {
     padding: 0;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info {
+  .main .container2  .insplist-wrap .txt-info {
     bottom: 2.125rem;
     padding: 0 1.375rem 0 1.375rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info .tinfo-cg {
+  .main .container2  .insplist-wrap .txt-info .tinfo-cg {
     font-size: 0.59375rem;
     margin-bottom: 0.6875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info .tinfo-tit {
+  .main .container2  .insplist-wrap .txt-info .tinfo-tit {
     font-size: 0.71875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul {
+  .main .container2  .insplist-wrap > ul {
     padding: 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li {
+  .main .container2  .insplist-wrap > ul li {
     width: 100%;
     height: 24.375rem;
     min-height: 24.375rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li ~ li {
+  .main .container2  .insplist-wrap > ul li ~ li {
     margin-top: 1.71875rem;
     margin-left: 0;
     justify-content: inherit;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box {
+  .main .container2  .insplist-wrap > ul li .dim-box {
     padding: 2.125rem 1.5rem 0 1.5rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cg {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cg {
     font-size: 0.5625rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-tit {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-tit {
     font-size: 1.375rem;
     margin-top: 4.5rem;
     letter-spacing: 0.06875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-place {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-place {
     font-size: 0.75rem;
     margin-top: 1.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cmt {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cmt {
     font-size: 0.5625rem;
     margin-top: 1.75rem;
     line-height: 0.9375rem;
     letter-spacing: 0.028125rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cmt p {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cmt p {
     color: #fff;
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn2-golmore {
+  .main .container2  .insplist-wrap > ul li .dim-box .btn2-golmore {
     width: 1.875rem;
     height: 0.75rem;
     bottom: 2.5625rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box.ftrd-prod-box {
+  .main .container2 .ftrd-prod-box {
     margin: 7.5rem 0 0 0;
   }
-  .main .container2 .main-box.ftrd-prod-box .overscr-list-wrap .overscr-list li {
+  .main .container2 .ftrd-prod-box .overscr-list-wrap .overscr-list li {
     width: 13.1875rem;
     height: 22.6875rem;
     margin-left: 0.9125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box {
+  .main .container2 .ftrd-prod-box .txt-box {
     padding: 1.625rem 1.125rem 0 1.125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .info-st {
+  .main .container2 .ftrd-prod-box .txt-box .info-st {
     font-size: 0.5625rem;
     letter-spacing: 0.028125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .center-box .info-ti {
+  .main .container2 .ftrd-prod-box .txt-box .center-box .info-ti {
     margin-top: 6.875rem;
     font-size: 1.375rem;
     letter-spacing: 0.06875rem;
     line-height: 1.25em;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .center-box .info-ki {
+  .main .container2 .ftrd-prod-box .txt-box .center-box .info-ki {
     margin-top: 1rem;
     font-size: 0.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .btn2-golmore {
+  .main .container2 .ftrd-prod-box .txt-box .btn2-golmore {
     width: 1.6875rem;
     height: 0.6875rem;
     bottom: 2.0625rem;
@@ -374,59 +374,59 @@
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
 
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li {
     width: 13.1875rem;
     height: 22.6875rem;
     margin-left: 0.875rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li img {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul {
     bottom: 6.25rem;
     left: 1.375rem;
     flex-flow: column;
     margin: 0;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li ~ li {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li ~ li {
     margin-top: 0.875rem;
     line-height: 0.875rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li a {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li a {
     font-size: 0.5625rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li:hover .seg-menu-tit span {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li:hover .seg-menu-tit span {
     font-size: 1.375rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit {
     padding-left: 1.375rem;
     bottom: 2.0625rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit span {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit span {
     font-size: 0.75rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 1.375rem;
     letter-spacing: 0.1375rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .overscr-list, .main .container2 .main-box .overscr-list-wrap {
+  .main .container2  .overscr-list, .main .container2  .overscr-list-wrap {
     height: 22.6875rem;
   }
 }
 @media only screen and (orientation: portrait) and (min-height:375px) and (max-height:667px), only screen and (orientation: portrait) and (min-height:390px) and (max-height:844px), only screen and (orientation: portrait) and (min-height:428px) and (max-height:926px) {
-  .main .container2 .main-box .tab-ui .btn2s.type-main {
+  .main .container2  .tab-ui .btn2s.type-main {
     margin: 2.25rem 0 2.125rem 0;
   }
-  .main .container2 .main-box .tab-ui .btn2s.type-main li {
+  .main .container2  .tab-ui .btn2s.type-main li {
     margin: 0 0.1875rem;
   }
-  .main .container2 .main-box .tab-ui .btn2s ul .btn2-tab button {
+  .main .container2  .tab-ui .btn2s ul .btn2-tab button {
     height: 1.75rem;
     font-weight: 600;
     font-size: 0.75rem;
@@ -504,7 +504,7 @@
     width: 7.625rem;
     height: 1.1875rem;
   }
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-family: 'Montserrat', sans-serif;;
     font-size: 38px;
     font-weight: 900;
@@ -512,79 +512,79 @@
   }
 }
 @media (max-width: 768px) and (max-width: 1440px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 27px;
   }
 }
 @media (max-width: 768px) and (max-width: 768px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 1.2916666667rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box ul.slick-slider, .main .container2 .main-box .insplist-wrap ul {
+  .main .container2  ul.slick-slider, .main .container2  .insplist-wrap ul {
     margin-left: 0;
     margin-right: 0;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .p-ui .slick-arrow, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-arrow {
+  .main .container2  .p-ui .slick-arrow, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-arrow {
     width: 0.75rem;
     height: 1.3125rem;
     opacity: 0.5;
   }
-  .main .container2 .main-box .p-ui .slick-prev, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-prev {
+  .main .container2  .p-ui .slick-prev, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-prev {
     left: 0.6875rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(255,255,255,1)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box .p-ui .slick-next, .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .slick-next {
+  .main .container2  .p-ui .slick-next, .main .container2 .ourprod-box .ourprod-wrap.m-ui .slick-next {
     right: 0.6875rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='white' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box:first-child .p-ui {
+  .main .container2 :first-child .p-ui {
     display: block;
     height: 41.5625rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .slider-prod .txt-box {
+  .main .container2  .slider-prod .txt-box {
     top: 50%;
     height: 19.0625rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .bannerRect {
+  .main .container2  .slider-prod .txt-box .bannerRect {
     width: 16.625rem;
     height: 4.9375rem;
     margin-bottom: 0;
     border: 2px solid rgba(255, 255, 255, 0.7);
     border-bottom: none;
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(6), .main .container2 .main-box .slider-prod .txt-box hr:nth-child(3) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(6), .main .container2  .slider-prod .txt-box hr:nth-child(3) {
     width: 16.625rem;
     border-bottom: 2px solid rgba(255, 255, 255, 0.7);
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(3) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(3) {
     margin: 1rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box hr:nth-child(6) {
+  .main .container2  .slider-prod .txt-box hr:nth-child(6) {
     margin: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box a {
+  .main .container2  .slider-prod .txt-box a {
     width: 8.1875rem;
     height: 2.25rem;
     min-height: 2.25rem;
     margin: 1.75rem 0 3.125rem 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more {
+  .main .container2  .slider-prod .txt-box .btn2-more {
     padding: 0;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more span {
+  .main .container2  .slider-prod .txt-box .btn2-more span {
     font-size: 0.7708333333rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more:after {
+  .main .container2  .slider-prod .txt-box .btn2-more:after {
     content: "";
     position: absolute;
     left: 0px;
@@ -596,59 +596,59 @@
     opacity: 0.2;
     transition: all 0.45s ease-in-out 0s;
   }
-  .main .container2 .main-box .slider-prod .txt-box .btn2-more:hover::after {
+  .main .container2  .slider-prod .txt-box .btn2-more:hover::after {
     width: 100%;
     opacity: 0.8;
   }
-  .main .container2 .main-box .slider-prod .slick-list,
-  .main .container2 .main-box .slider-prod .slick-slide {
+  .main .container2  .slider-prod .slick-list,
+  .main .container2  .slider-prod .slick-slide {
     height: 100%;
   }
-  .main .container2 .main-box .slider-prod img {
+  .main .container2  .slider-prod img {
     min-height: 41.5625rem;
   }
-  .main .container2 .main-box .slider-prod .txt-box p.txt-01 {
+  .main .container2  .slider-prod .txt-box p.txt-01 {
     width: 17.5rem;
     font-size: 1.75rem;
     line-height: normal;
     text-align: center;
   }
-  .main .container2 .main-box .slider-prod .txt-box p.txt-02 {
+  .main .container2  .slider-prod .txt-box p.txt-02 {
     font-size: 0.875rem;
     line-height: 1.125rem;
     margin: 0;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box.ourprod-box {
+  .main .container2 .ourprod-box {
     margin-top: 6.75rem;
     display: flex;
     flex-flow: column;
   }
-  .main .container2 .main-box.ourprod-box > p {
+  .main .container2 .ourprod-box > p {
     margin: 0 0 3.125rem 0;
     width: 86%;
     font-size: 0.78125rem;
     line-height: 1.21875rem;
     align-self: center;
   }
-  .main .container2 .main-box.ourprod-box > p > br {
+  .main .container2 .ourprod-box > p > br {
     display: inline-block;
     content: " ";
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui {
     margin-top: 0;
     overflow: hidden;
     max-height: 30.125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item {
     display: flex;
     flex-flow: column;
     justify-content: center;
     padding-left: 2.25rem;
     height: 28.9583333333rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .title {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .title {
     font-weight: bold;
     font-size: 1.34375rem;
     letter-spacing: 0.01375rem;
@@ -656,163 +656,167 @@
     margin-top: 1.1458333333rem;
     margin-bottom: 1.6875rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:first-child {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:first-child {
     position: relative;
     left: -0.625rem;
     width: 8.6875rem;
     height: 1.5625rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:nth-child(3) {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item svg:nth-child(3) {
     width: 2.3125rem;
     height: 2.3125rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item .btn2-golmore {
     position: relative;
     margin-top: auto;
     margin-bottom: 2.8125rem;
     width: 2.875rem;
     height: 1.1875rem;
   }
-  .main .container2 .main-box.ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item.stm03 svg:first-child {
+  .main .container2 .ourprod-box .ourprod-wrap.m-ui .ourprod-slide .s-item.stm03 svg:first-child {
     left: 0;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box.ftrd-prod-box .tab-ui, .main .container2 .main-box.seg-box .tab-ui {
+  .main .container2 .ftrd-prod-box .tab-ui, .main .container2 .seg-box .tab-ui {
     margin-bottom: 0;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box.insp-box {
+  .main .container2 .insp-box {
     margin-top: 8.75rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui {
+  .main .container2 .insp-box .tab-ui {
     margin-bottom: 0;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-slider {
+  .main .container2 .insp-box .tab-ui .slick-slider {
     display: flex;
     justify-content: center;
     padding: 0;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-list {
+  .main .container2 .insp-box .tab-ui .slick-list {
     width: 17rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-slide {
+  .main .container2 .insp-box .tab-ui .slick-slide {
     height: fit-content;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-arrow {
+  .main .container2 .insp-box .tab-ui .slick-arrow {
     padding: 0;
     width: 0.75rem;
     height: 1.3125rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-prev {
+  .main .container2 .insp-box .tab-ui .slick-prev {
     left: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .slick-next {
+  .main .container2 .insp-box .tab-ui .slick-next {
     right: 1.5625rem;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
+  .main .container2 .insp-box .tab-ui .btn2s.type-main > ul .slick-prev {
     left: 1.5625rem;
     background: url("data:image/svg+xml;utf8, <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M10 17L2 9L10 1' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .tab-ui .btn2s.type-main > ul .slick-next {
+  .main .container2 .insp-box .tab-ui .btn2s.type-main > ul .slick-next {
     right: 1.5625rem;
     background: url("data:image/svg+xml;utf8,  <svg width='11' height='18' viewBox='0 0 11 18' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M1 1L9 9L1 17' stroke='rgba(44,44,45, .3)' stroke-width='2' stroke-miterlimit='10'/></svg>");
     background-size: 100%;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap {
+  .main .container2  .insplist-wrap {
     padding: 0;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info {
+  .main .container2  .insplist-wrap .txt-info {
     bottom: 2.125rem;
     padding: 0 1.375rem 0 1.375rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info .tinfo-cg {
+  .main .container2  .insplist-wrap .txt-info .tinfo-cg {
     font-size: 0.59375rem;
     margin-bottom: 0.6875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap .txt-info .tinfo-tit {
+  .main .container2  .insplist-wrap .txt-info .tinfo-tit {
     font-size: 0.71875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul {
+  .main .container2  .insplist-wrap > ul {
     padding: 0;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li {
+  .main .container2  .insplist-wrap > ul li {
     width: 100%;
     height: 24.375rem;
     min-height: 24.375rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li ~ li {
+  .main .container2  .insplist-wrap > ul li ~ li {
     margin-top: 1.71875rem;
     margin-left: 0;
     justify-content: inherit;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box {
+  .main .container2  .insplist-wrap{
+    padding: 0 16px
+  }
+
+  .main .container2  .insplist-wrap > ul li .dim-box {
     padding: 2.125rem 1.5rem 0 1.5rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cg {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cg {
     font-size: 0.5625rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-tit {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-tit {
     font-size: 1.375rem;
     margin-top: 4.5rem;
     letter-spacing: 0.06875rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-place {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-place {
     font-size: 0.75rem;
     margin-top: 1.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cmt {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cmt {
     font-size: 0.5625rem;
     margin-top: 1.75rem;
     line-height: 0.9375rem;
     letter-spacing: 0.028125rem;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .tinfo-cmt p {
+  .main .container2  .insplist-wrap > ul li .dim-box .tinfo-cmt p {
     color: #fff;
     display: -webkit-box;
     overflow: hidden;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
   }
-  .main .container2 .main-box.insp-box .insplist-wrap > ul li .dim-box .btn2-golmore {
+  .main .container2  .insplist-wrap > ul li .dim-box .btn2-golmore {
     width: 1.875rem;
     height: 0.75rem;
     bottom: 2.5625rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box.ftrd-prod-box {
+  .main .container2 .ftrd-prod-box {
     margin: 7.5rem 0 0 0;
   }
-  .main .container2 .main-box.ftrd-prod-box .overscr-list-wrap .overscr-list li {
+  .main .container2 .ftrd-prod-box .overscr-list-wrap .overscr-list li {
     width: 13.1875rem;
     height: 22.6875rem;
     margin-left: 0.9125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box {
+  .main .container2 .ftrd-prod-box .txt-box {
     padding: 1.625rem 1.125rem 0 1.125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .info-st {
+  .main .container2 .ftrd-prod-box .txt-box .info-st {
     font-size: 0.5625rem;
     letter-spacing: 0.028125rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .center-box .info-ti {
+  .main .container2 .ftrd-prod-box .txt-box .center-box .info-ti {
     margin-top: 6.875rem;
     font-size: 1.375rem;
     letter-spacing: 0.06875rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .center-box .info-ki {
+  .main .container2 .ftrd-prod-box .txt-box .center-box .info-ki {
     margin-top: 1rem;
     font-size: 0.75rem;
     letter-spacing: 0.0075rem;
   }
-  .main .container2 .main-box.ftrd-prod-box .txt-box .btn2-golmore {
+  .main .container2 .ftrd-prod-box .txt-box .btn2-golmore {
     width: 1.6875rem;
     height: 0.6875rem;
     bottom: 2.0625rem;
@@ -820,59 +824,59 @@
 }
 @media (max-width: 768px) {
 
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li {
     width: 13.1875rem;
     height: 22.6875rem;
     margin-left: 0.875rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li img {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track > li img {
     width: 100%;
     height: 100%;
     object-fit: cover;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul {
     bottom: 6.25rem;
     left: 1.375rem;
     flex-flow: column;
     margin: 0;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li ~ li {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li ~ li {
     margin-top: 0.875rem;
     line-height: 0.875rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li a {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .menu-box ul li a {
     font-size: 0.5625rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li:hover .seg-menu-tit span {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li:hover .seg-menu-tit span {
     font-size: 1.375rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit {
     padding-left: 1.375rem;
     bottom: 2.0625rem;
   }
-  .main .container2 .main-box.seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit span {
+  .main .container2 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li .seg-menu-tit span {
     font-size: 0.75rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .tit-main {
+  .main .container2  .tit-main {
     font-size: 1.375rem;
     letter-spacing: 0.1375rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .overscr-list, .main .container2 .main-box .overscr-list-wrap {
+  .main .container2  .overscr-list, .main .container2  .overscr-list-wrap {
     height: 22.6875rem;
   }
 }
 @media (max-width: 768px) {
-  .main .container2 .main-box .tab-ui .btn2s.type-main {
+  .main .container2  .tab-ui .btn2s.type-main {
     margin: 2.25rem 0 2.125rem 0;
   }
-  .main .container2 .main-box .tab-ui .btn2s.type-main li {
+  .main .container2  .tab-ui .btn2s.type-main li {
     margin: 0 0.1875rem;
   }
-  .main .container2 .main-box .tab-ui .btn2s ul .btn2-tab button {
+  .main .container2  .tab-ui .btn2s ul .btn2-tab button {
     height: 1.75rem;
     font-weight: 600;
     font-size: 0.75rem;
