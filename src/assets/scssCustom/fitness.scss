@@ -923,6 +923,58 @@ select.inp-text {
   .bgArea{
     height: 300px;
   }
+
+  #listLayerout #listLayeroutWrap{
+    width: 100%;
+    padding: 50px 16px 30px;
+  }
+  #listLayerout #listLayeroutWrap .listCont{
+    display: block;
+  }
+  #listLayerout #listLayeroutWrap .listCont>div.slideArea{
+    width: 100%;
+    display: block;
+  }
+  #listLayerout #listLayeroutWrap .listCont .listArea{
+    padding-left: 0;
+    display: block;
+  }
+
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul{
+   
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    display: grid;
+    gap: 1rem;
+  }
+
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul li{
+    width: 100%;
+    margin-right: 0;
+  }
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul li a.linkBtn .thumArea{
+    width: 100%;
+    aspect-ratio: 1/1;
+    height: auto;
+  }
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul li a.linkBtn .textArea{
+    padding: 14px 0 20px;
+  }
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul li a.linkBtn .textArea strong{
+    // min-height: 80px;
+    min-height: auto;
+    font-size: 24px;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.3em;
+  }
+  #listLayerout #listLayeroutWrap .listCont .listArea>ul li a.linkBtn .textArea span{
+    font-size: 16px;
+  }
+  #listLayerout #listLayeroutWrap .listCont .paging{
+    padding-top: 30px;
+  }
+  #listLayerout #listLayeroutWrap .listCont{
+    padding-bottom: 20px;
+  }
 }
 #container.businessList #relatedCont .relatedSlide .slick-slide a.linkBtn .thumArea{
   width: 100%;

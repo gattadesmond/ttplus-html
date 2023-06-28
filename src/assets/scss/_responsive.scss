@@ -294,7 +294,11 @@
 	.arck-project-filter-btn button,
 	.arck-project-filter-btn li,
 	.arck-project-filter-btn button {
-		margin-left: 15px;
+		// margin-left: 15px;
+	}
+	.arck-project-feed-section .arck-project-filter-btn{
+		margin-bottom: 10px;
+		padding-bottom: 0;
 	}
 	.arck-project-top-content {
 		padding-bottom: 40px;
