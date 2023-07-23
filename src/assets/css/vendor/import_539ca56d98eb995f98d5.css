@@ -1418,10 +1418,20 @@ h4.tit-sub-02 {
     width: 100%;
   }
 }
+#discriptionCont img{
+ 
+    margin: 0 auto;
+  display: block;
+}
+.aligncenter{
+  margin: 0 auto;
+  display: block;
+}
 .prod-dt-view .slider-prod img,
 .prod-dt-view .slider-prod02 img {
   -o-object-fit: cover;
      object-fit: cover;
+     margin: 0 auto;
 }
 .prod-dt-view .slider-prod-nav,
 .prod-dt-view .slider-prod-nav02 {
@@ -12619,7 +12629,7 @@ h3.tit {
   }
 }
 .seg-box .overscr-list-wrap .overscr-list .slick-list .slick-track li:hover .seg-menu-tit span {
-  font-size: 38px;
+  font-size: 20px;
   border-bottom: none;
 }
 

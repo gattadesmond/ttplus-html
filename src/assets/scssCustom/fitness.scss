@@ -203,12 +203,19 @@ ul {
 
 .arck-project-filter-btn .button-group {
   margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  overflow-x: auto;
+  justify-content: flex-start;
+  -webkit-overflow-scrolling: auto;
+  white-space: nowrap;
+  text-align: center;
   .filter-button {
     padding: 5px 10px;
     width: auto;
+    
+  
   }
 }
 
@@ -980,4 +987,8 @@ select.inp-text {
   width: 100%;
   aspect-ratio: 1/1;
   height: auto;
+}
+
+.arck-sponsor-slider .slick-track {
+  margin:auto;
 }

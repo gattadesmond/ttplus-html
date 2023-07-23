@@ -63,6 +63,8 @@
           slidesToScroll: 1,
           centerMode: true,
           infinite: true,
+          autoplay: true,
+          autoplaySpeed: 3000,
         },
       },
       // You can unslick at a given breakpoint now by adding:
@@ -187,7 +189,6 @@
       .removeClass("on");
   }
   $(document).on("click", ".btn4-filter", tabMenu3);
-
 
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {

@@ -1605,7 +1605,16 @@
 .ourprod-wrap .ourprod-content .item.off .pro-detail-tit {
   opacity: 0;
 }
+.ourprod-wrap .ourprod-content .item.off .pro-detail-tit {
+  opacity: 0;
+}
+.ourprod-wrap .ourprod-content .item .tt1{
+  transition: .5s ease;
 
+}
+.ourprod-wrap .ourprod-content .item.off .tt1{
+  opacity: 0;
+}
 .main.content.prod-dt-cate .container2.prod-dt-view .main-box.ourprod-box .ourprod-wrap .ourprod-content .item .pd-logo {
   cursor: pointer;
 }

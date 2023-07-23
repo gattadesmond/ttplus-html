@@ -5929,7 +5929,7 @@ body.scrolltop #container.business .quickButton.quickFix {
 }
 
 #listLayerout #listLayeroutWrap .listCont>div.slideArea {
-  width: 240px
+  width: 300px
 }
 
 #listLayerout #listLayeroutWrap .listCont .slideArea .searchArea input {
@@ -5952,7 +5952,7 @@ body.scrolltop #container.business .quickButton.quickFix {
 }
 
 #listLayerout #listLayeroutWrap .listCont .slideArea>ul>li:first-child>a.btn_link {
-  font-size: 24px;
+  font-size: 18px;
   border-top: 0;
   padding-left: 0;
   color: #000
@@ -5961,7 +5961,7 @@ body.scrolltop #container.business .quickButton.quickFix {
 #listLayerout #listLayeroutWrap .listCont .slideArea>ul>li>a.btn_link {
   position: relative;
   padding: 16px 0 16px 26px;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Montserrat,sans-serif;
   line-height: 1em;
   box-sizing: border-box;
@@ -6058,7 +6058,7 @@ body.scrolltop #container.business .quickButton.quickFix {
 #listLayerout #listLayeroutWrap .listCont .slideArea>ul>li>ul>li>a.btn_link {
   position: relative;
   padding: 14px 40px 14px 26px;
-  font-size: 16px;
+  font-size: 15px;
   font-family: Montserrat,sans-serif;
   color: #666
 }
@@ -7372,7 +7372,8 @@ body.scrolltop #wapper.businessList #header.notEfc {
 }
 
 #container.businessList .contBox .contWrap img {
-  max-width: 100%
+  max-width: 100%;
+  width: 100%;
 }
 
 #container.businessList .contBox .contWrap .editorArea {
