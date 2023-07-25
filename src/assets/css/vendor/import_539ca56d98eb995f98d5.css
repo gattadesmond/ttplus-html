@@ -12271,6 +12271,7 @@ h3.tit {
   width: 72px;
   height: 31px;
   margin-bottom: 78px;
+  display: inline-block;
 }
 .ourprod-wrap .ourprod-view .item:nth-child(2) .bgImage img {
   left: 0%;
