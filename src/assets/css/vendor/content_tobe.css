@@ -2852,7 +2852,7 @@ body.scrolltop #gnb>li:nth-child(5) .subDepthArea .subDepthMenu {
 #location {
   margin-top: -40px;
   height: 27px;
-  padding-bottom: 13px;
+  margin-bottom: 13px;
   position: relative;
   z-index: 3
 }
@@ -6827,10 +6827,10 @@ body.scrolltop #wapper.businessList #header.notEfc {
 #container.businessList .topArea .topWrap>.imgArea {
   float: left;
   width: 740px;
-  height: 622px;
-  border: 1px solid #e1e1e4;
+  /* height: 622px; */
+  /* border: 1px solid #e1e1e4; */
   box-sizing: border-box;
-  background: url(../img/business/imgBg.jpg) no-repeat 50% 0
+  /* background: url(../img/business/imgBg.jpg) no-repeat 50% 0 */
 }
 
 #container.businessList .topArea .topWrap>.imgArea .imgSlide {
@@ -6945,7 +6945,8 @@ body.scrolltop #wapper.businessList #header.notEfc {
 
 #container.businessList .topArea .topWrap>.imgArea .fotArea {
   padding: 20px 20px 15px;
-  box-sizing: border-box
+  box-sizing: border-box;
+  display: none;
 }
 
 #container.businessList .topArea .topWrap>.imgArea .fotArea .btnArea li {

@@ -851,15 +851,20 @@ select.inp-text {
     padding: 50px 16px 40px;
   }
   #container.businessList .topArea .topWrap > .imgArea {
-    width: 100%;
-    aspect-ratio: 74/62;
+    width: calc(100% + 32px);
+    // aspect-ratio: 74/62;
     height: auto;
     float: none;
+    margin-left: -16px;
+    margin-right: -16px;
+    margin-top: -50px;
+    border: none;
   }
   #container.businessList .topArea .topWrap > .imgArea .slick-slide {
     width: 100%;
     aspect-ratio: 740/525;
     height: auto;
+   
   }
   #container.businessList .topArea .topWrap > .imgArea .linkBtn {
     width: 100%;
