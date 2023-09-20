@@ -870,7 +870,9 @@ select.inp-text {
     width: 100%;
     aspect-ratio: 740/525;
     height: auto;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .businessList .bgArea {
     height: 150px;
